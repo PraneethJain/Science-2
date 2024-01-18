@@ -224,3 +224,23 @@ Both the masses have the same displacement at the start, so their graphs overlap
 #figure(
   image("iii.png", height: 43%)
 )
+
+= Question 3
+== (i)
+
+== (ii) (iii)
+=== S = 100
+#figure(
+  image("100.png", height: 39%)
+)
+
+=== S = 500
+#figure(
+  image("500.png", height: 39%)
+)
+
+== (iv)
+- $d$ is responsible for shifting the entire figure in the $x$ axis. The diagonal values represent the center of the figure on the $x$ axis. In this case, since $d = 93$, the image is centered at $x = -93$
+- $C$ is responsible for stretching the image along the y-axis. A larger $C$ value leads to the image being stretched along the y-axis (larger maximum y and smaller minimum y), while a smaller $C$ value leads to compression in the y-axis.
+- $S$ controls the density of the points. As $S$ increases, the number of points in the matrix increases, so the image appears denser. As $S$ decreases, the points appear less dense.
+- $sigma$ controls the spread of the points. Larger $sigma$ causes the values to spread out (equally) in all directions, causing the image to zoom out, while smaller $sigma$ causes the image to zoom in.
