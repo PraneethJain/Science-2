@@ -230,14 +230,14 @@ Both the masses have the same displacement at the start, so their graphs overlap
 The distribution is approaching an ellipse (a circle with proper values of $C$). For just a diagonal matrix, its diagonal entries are the eigenvalues. In this case, all the diagonal entries are $-d$. Now, if we sample points from the normal distribution for the other entries, the eigenvalues will start to deviate from $-d$. As is evident from the figures below, the values are scattering around $x=-d$, and their variations from the other paramters leads to the ellipse shape.
 
 == (ii) (iii)
-=== S = 100
 #figure(
-  image("100.png", height: 28%)
-)
-
-=== S = 500
-#figure(
-  image("500.png", height: 28%)
+    grid(
+        columns: 2,
+        gutter: 2mm,
+  image("100.png", height: 28%),
+  image("500.png", height: 28%),
+    ),
+    caption: "left: S = 100, right: S = 200"
 )
 
 == (iv)
@@ -245,3 +245,34 @@ The distribution is approaching an ellipse (a circle with proper values of $C$).
 - $C$ is responsible for stretching the image along the y-axis. A larger $C$ value leads to the image being stretched along the y-axis (larger maximum y and smaller minimum y), while a smaller $C$ value leads to compression in the y-axis.
 - $S$ controls the density of the points. As $S$ increases, the number of points in the matrix increases, so the image appears denser. As $S$ decreases, the points appear less dense.
 - $sigma$ controls the spread of the points. Larger $sigma$ causes the values to spread out (equally) in all directions, causing the image to zoom out, while smaller $sigma$ causes the image to zoom in.
+
+```py
+import numpy as np
+import matplotlib.pyplot as plt
+from itertools import product
+
+
+def gen_matrix(S: int, C: float, d: float, sigma: float) -> np.ndarray[np.float64]:
+    m = np.zeros((S, S))
+    for i, j in product(range(S), repeat=2):
+        if i == j:
+            m[i][j] = -d
+        else:
+            if np.random.uniform() < C:
+                m[i][j] = np.random.normal(0, sigma * sigma)
+            else:
+                m[i][j] = 0
+    return m
+
+
+def plot_eigs(m: np.ndarray[np.float64]) -> None:
+    vals = np.linalg.eigvals(m)
+    x = np.real(vals)
+    y = np.imag(vals)
+    plt.scatter(x, y)
+    plt.show()
+
+
+m = gen_matrix(100, 0.4, 93, 10)
+plot_eigs(m)
+```
