@@ -125,4 +125,11 @@ Lagrange Equation
 $ d/(d t) (diff L)/(diff dot(q_i)) - (diff L)/(diff q_i) = 0 $
 
 For $q_i = x$
-$  $
+$ m dot.double(x) - (-k_1 x - k_2(x - y)) = 0 $
+$ m dot.double(x) = (-k_1 - k_2)x + k_2 y $
+
+For $q_i = y$
+$ m dot.double(y) - (-k_1 y + k_2(x - y)) = 0 $
+$ m dot.double(y) = (-k_1 - k_2)y + k_2 x $
+
+These are the equations of motion for the system.
