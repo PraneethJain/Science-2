@@ -100,6 +100,18 @@ $ A^T = A $
 
 Therefore, for SVD and standard diagonalization of a matrix to give the same results, the matrix must by *symmetric*
 
+Now, consider a symmetric matrix $A$. The spectral theorem states implies $A$ is orthogonally diagonalizable.
+$ A = P D P^T $
+with $P^T = P^(-1)$. Since $A$ is symmetric, for its SVD, we have $U = V$,
+$ A = U Sigma U^T $
+Assume the SVD decomposition is different from the diagonalization. The spectral theorem guarantees a unique diagonalization for a symmetric matrix. But if the SVD is not the same, then it means there are multiple diagonalizations. This is a contradiction. Therefore, both the decompositions are the same.
+
+Therefore, for a symmetric matrix, the SVD and standard diagonalization of a matrix give the same results.
+
+Since we have proven both ways, we can conclude:
+
+*The SVD and Standard Diagonalization are same if and only if the matrix is symmetric.*
+
 = Question 2
 == (a)
 Kinetic Energy T = $1/2 m dot(x)^2 + 1/2 m dot(y)^2$
