@@ -1,6 +1,6 @@
 #align(center, text(17pt)[*Science-2*])
 #align(center, text(16pt)[Assignment-1])
-#align(center, text(13pt)[Moida Praneeth Jain, 20221010193])
+#align(center, text(13pt)[Moida Praneeth Jain, 2022101093])
 
 = Question 1
 == (a)
@@ -40,4 +40,27 @@ $ Sigma = mat(26.57695941,  0,          0;
 $ V^T = mat(-0.56645958, -0.55247881, -0.61146603;
   0.82306601, -0.34232011, -0.45318791;
   0.0410596,  -0.75998954,  0.64863704;) $
+
+The calculation can be performed through the following code snipped:
+#show raw: it => block(
+  fill: rgb("#000000"),
+  inset: 16pt,
+  radius: 5pt,
+  text(fill: rgb("#ffffff"), it)
+)
+```py
+import numpy as np
+inp = np.matrix([[9, 3, 3], [4, 5, 6], [7, 8, 9], [10, 11, 12]])
+
+U, d, V_T = np.linalg.svd(inp)
+D = np.vstack(
+    (*np.diag(d), *[np.zeros(V_T.shape[0]) for _ in range(U.shape[0] - V_T.shape[0])])
+)
+
+print(U)
+print(D)
+print(V_T)
+print(U.dot(D).dot(V_T))
+
+```
 == (b)
