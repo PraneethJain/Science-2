@@ -227,16 +227,17 @@ Both the masses have the same displacement at the start, so their graphs overlap
 
 = Question 3
 == (i)
+The distribution is approaching an ellipse (a circle with proper values of $C$). For just a diagonal matrix, its diagonal entries are the eigenvalues. In this case, all the diagonal entries are $-d$. Now, if we sample points from the normal distribution for the other entries, the eigenvalues will start to deviate from $-d$. As is evident from the figures below, the values are scattering around $x=-d$, and their variations from the other paramters leads to the ellipse shape.
 
 == (ii) (iii)
 === S = 100
 #figure(
-  image("100.png", height: 39%)
+  image("100.png", height: 28%)
 )
 
 === S = 500
 #figure(
-  image("500.png", height: 39%)
+  image("500.png", height: 28%)
 )
 
 == (iv)
