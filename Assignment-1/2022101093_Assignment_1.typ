@@ -104,6 +104,9 @@ Now, consider a symmetric matrix $A$. The spectral theorem states implies $A$ is
 $ A = P D P^T $
 with $P^T = P^(-1)$. Since $A$ is symmetric, for its SVD, we have $U = V$,
 $ A = U Sigma U^T $
+
+The Spectral Theorem states that if $A$ is a real symmetric matrix, then there exists an orthogonal matrix $P$ such that $P^T A P$ is a diagonal matrix.
+
 Assume the SVD decomposition is different from the diagonalization. The spectral theorem guarantees a unique diagonalization for a symmetric matrix. But if the SVD is not the same, then it means there are multiple diagonalizations. This is a contradiction. Therefore, both the decompositions are the same.
 
 Therefore, for a symmetric matrix, the SVD and standard diagonalization of a matrix give the same results.
