@@ -29,26 +29,42 @@ The steps to find SVD of a matrix $A$ are as follows:
   $
   by placing the non-zero eigenvalues as the diagonal entries, and the rest of the values as $0$.
 
-- Construct $U$: The columns of $U$ are the eigenvectors of $A A^T$ divided by the root of their corresponding eigenvalues.
-- Construct $V$: The columns of $V$ are the eigenvectors of $A^T A$
+- Construct $U$: The columns of $U$ are the normalized eigenvectors of $A A^T$.
+- Construct $V$: The columns of $V$ are the normalized eigenvectors of $A^T A$
 
 Following these steps for the required matrix $ A = mat(9, 3, 3; 4, 5, 6; 7, 8, 9; 10, 11, 12) $
 
-We get the following decomposition:
-$ U =  mat(-0.32321119,  0.93939789,  0.11430716, 0;
- -0.32723941, -0.21299656,  0.82515463,  0.40824829;
- -0.522567,   -0.19752899,  0.14573731, -0.81649658;
- -0.71789458, -0.18206142, -0.53368,     0.40824829;) $
+$ B = A A^T = mat(99,   69,  114,  159;
+  69,   77,  122,  167;
+ 114,  122,  194,  266;
+ 159,  167,  266,  365;) $
+
+$ C = A^T A  = mat(
+246,  213,  234;
+ 213,  219,  243;
+ 234,  243,  270;
+) $
+
+$ lambda_1 = 706.335, lambda_2 = 28.569, lambda_3 = 0.096, lambda_4 = 0 $
+
+With corresponding eigenvectors
+$ b_1 = mat(-0.32;-0.33;-0.52;-0.72), b_2 = mat(0.94; -0.21; -0.2; -0.18), b_3 = mat(0.11; 0.83; 0.15; -0.53), b_4 = mat(0; 0.41; -0.82; 0.41) $
+$ c_1 = mat(-0.57; -0.55; -0.61), c_2 = mat(0.82; -0.34; -0.45), c_3 = mat(0.04; -0.76; 0.65) $
 $ Sigma = mat(26.57695941,  0,          0;
   0,         5.34498755 , 0  ;
   0,          0,          0.31038172;
   0,          0,          0,        ;) $
+$ U =  mat(-0.32,   0.94,   0.11, 0;
+ -0.33,  -0.21,   0.83, 0.41;
+ -0.52,  -0.2 ,   0.15, -0.82;
+ -0.72,  -0.18,  -0.53, 0.41;) $
 
-$ V^T = mat(-0.56645958, -0.55247881, -0.61146603;
-  0.82306601, -0.34232011, -0.45318791;
-  0.0410596,  -0.75998954,  0.64863704;) $
 
-The calculation can be performed through the following code snipped:
+$ V^T = mat(-0.57,  -0.55,  -0.61;
+  0.82,  -0.34,  -0.45;
+  0.04,  -0.76,   0.65;) $
+
+The calculation can alternatively be performed through the following code snipped:
 
 ```py
 import numpy as np
@@ -83,3 +99,18 @@ $ A^T = P D P^(-1) $
 $ A^T = A $
 
 Therefore, for SVD and standard diagonalization of a matrix to give the same results, the matrix must by *symmetric*
+
+= Question 2
+== (a)
+Kinetic Energy T = $1/2 m dot(x)^2 + 1/2 m dot(y)^2$
+
+Potential Energy V = $1/2 k_1 x^2 + 1/2 k_1 y^2 + 1/2 k_2 (x-y)^2$
+
+Lagragian $L = T - V$
+$ L = 1/2 m dot(x)^2 + 1/2 m dot(y)^2 - 1/2 k_1 x^2 - 1/2 k_1 y^2 - 1/2 k_2 (x-y)^2 $
+
+Lagrange Equation
+$ d/(d t) (diff L)/(diff dot(q_i)) - (diff L)/(diff q_i) = 0 $
+
+For $q_i = x$
+$  $
