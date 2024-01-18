@@ -27,7 +27,7 @@ The steps to find SVD of a matrix $A$ are as follows:
               0, 0, 0, dots, 0, 0;
               )
   $
-  by placing the non-zero eigenvalues as the diagonal entries, and the rest of the values as $0$.
+  by placing the square roots of the positive eigenvalues as the diagonal entries, and the rest of the values as $0$.
 
 - Construct $U$: The columns of $U$ are the normalized eigenvectors of $A A^T$.
 - Construct $V$: The columns of $V$ are the normalized eigenvectors of $A^T A$
