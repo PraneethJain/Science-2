@@ -114,22 +114,45 @@ Since we have proven both ways, we can conclude:
 
 = Question 2
 == (a)
-Kinetic Energy T = $1/2 m dot(x)^2 + 1/2 m dot(y)^2$
+Kinetic Energy T = $1/2 m_1 dot(x)^2 + 1/2 m_2 dot(y)^2$
 
 Potential Energy V = $1/2 k_1 x^2 + 1/2 k_1 y^2 + 1/2 k_2 (x-y)^2$
 
 Lagragian $L = T - V$
-$ L = 1/2 m dot(x)^2 + 1/2 m dot(y)^2 - 1/2 k_1 x^2 - 1/2 k_1 y^2 - 1/2 k_2 (x-y)^2 $
+$ L = 1/2 m_1 dot(x)^2 + 1/2 m_2 dot(y)^2 - 1/2 k_1 x^2 - 1/2 k_1 y^2 - 1/2 k_2 (x-y)^2 $
 
 Lagrange Equation
 $ d/(d t) (diff L)/(diff dot(q_i)) - (diff L)/(diff q_i) = 0 $
 
 For $q_i = x$
-$ m dot.double(x) - (-k_1 x - k_2(x - y)) = 0 $
-$ m dot.double(x) = (-k_1 - k_2)x + k_2 y $
+$ m_1 dot.double(x) - (-k_1 x - k_2(x - y)) = 0 $
+$ m_1 dot.double(x) = (-k_1 - k_2)x + k_2 y $
 
 For $q_i = y$
-$ m dot.double(y) - (-k_1 y + k_2(x - y)) = 0 $
-$ m dot.double(y) = (-k_1 - k_2)y + k_2 x $
+$ m_2 dot.double(y) - (-k_1 y + k_2(x - y)) = 0 $
+$ m_2 dot.double(y) = (-k_1 - k_2)y + k_2 x $
 
 These are the equations of motion for the system.
+
+== (b)
+Yes, the solutions of this system can be mapped through eigenvalue analysis.
+
+We can represent the above system of equations in matrix form as follows:
+$ mat(m_1, 0; 0, m_2) mat(dot.double(x); dot.double(y)) = mat(-k_1-k_2, k_2; k_2, -k_1 - k_2) mat(x; y) $
+
+$ mat(dot.double(x); dot.double(y)) = mat((-k_1-k_2)/m_1, k_2/m_1; k_2/m_2, (-k_1 - k_2)/m_2) mat(x; y) $
+
+let $A = mat((-k_1-k_2)/m_1, k_2/m_1; k_2/m_2, (-k_1 - k_2)/m_2)$. The modal frequencies 
+
+We now find eigenvalues of A
+$ A = mat(-(k_1 + k_2)/m_1, k_2/m_1; k_2/m_2, -(k_1 + k_2)/m_2) $
+$ |A - lambda I| = 0 $
+By calculating eigenvalues, we find the frequencies as $ omega_1 = sqrt(-lambda_1) space space space w_2 = sqrt(-lambda_2) $
+For the case of $k_1 = k_2 = k, m_1 = m_2 = m$
+$ |mat(-(2k)/m - lambda, k/m; k/m, -(2k)/m - lambda)|  = 0 $
+$ ((2k)/m + lambda)^2  = k^2/m^2 $
+$ (2k)/m + lambda  = plus.minus k/m $
+$ lambda_1 = -k/m space space space lambda_2 = -(3k)/m $
+
+Therefore, the frequencies are
+$ omega_1 = sqrt(k/m) space space space omega_2 = sqrt((3k)/m) $
