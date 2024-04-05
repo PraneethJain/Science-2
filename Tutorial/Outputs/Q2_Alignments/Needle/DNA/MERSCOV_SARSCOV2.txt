@@ -1,0 +1,433 @@
+########################################
+# Program: needle
+# Rundate: Fri  5 Apr 2024 14:12:41
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20240405-141217-0898-48581873-p1m.asequence
+#    -bsequence emboss_needle-I20240405-141217-0898-48581873-p1m.bsequence
+#    -datafile EDNAFULL
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -snucleotide1
+#    -snucleotide2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 21431-25492
+# 2: 21563-25384
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 4852
+# Identity:    2340/4852 (48.2%)
+# Similarity:  2340/4852 (48.2%)
+# Gaps:        1820/4852 (37.5%)
+# Score: 4469.0
+# 
+#
+#=======================================
+
+21431-25492        1 ATGATACACTCAGTGTTTCTACTGATGTTCTTGTTAACACCTACAGAAAG     50
+                     |||.|        |||||         ||||||||               
+21563-25384        1 ATGTT--------TGTTT---------TTCTTGTT---------------     18
+
+21431-25492       51 TTACGTTGATGTAGGGCCA-GATTCTGCTAAGTCTGTTTGTATTGAGGTT     99
+                     |||  ||        |||| .|.||| || ||||.||.|        |||
+21563-25384       19 TTA--TT--------GCCACTAGTCT-CT-AGTCAGTGT--------GTT     48
+
+21431-25492      100 GAT-ATACAAC-----------------------AGACT--TTCTTTGAT    123
+                     .|| .||||||                       |.|||  ||||||.| 
+21563-25384       49 AATCTTACAACCAGAACTCAATTACCCCCTGCATACACTAATTCTTTCA-     97
+
+21431-25492      124 AAAACTTGGCCTAGGCCAATTGATGTTTCTAAGGCTGA------------    161
+                                     ||..||.|||||.|.|..||||            
+21563-25384       98 ----------------CACGTGGTGTTTATTACCCTGACAAAGTTTTCAG    131
+
+21431-25492      162 -----CGGTATTATATACCCTCAAGGCCGTACATATTCTAACATAACTAT    206
+                          |.||.|||.||    ||||..|.|.||.|.||||.||        
+21563-25384      132 ATCCTCAGTTTTACAT----TCAACTCAGGACTTGTTCTTAC--------    169
+
+21431-25492      207 CACTTATCAAGGTCTTTTTCCCTATCAGGGAGACCATGG-----TGATAT    251
+                       |||       ||||||.|..|.|.|       |.|||     ||.|||
+21563-25384      170 --CTT-------TCTTTTCCAATGTTA-------CTTGGTTCCATGCTAT    203
+
+21431-25492      252 GTATGTTTACTCTGCAGGAC--ATGCTAC----AGG---CACAAC----T    288
+                     ..||||   |||||  ||||  |||.|||    |||   .|.|||    |
+21563-25384      204 ACATGT---CTCTG--GGACCAATGGTACTAAGAGGTTTGATAACCCTGT    248
+
+21431-25492      289 CC-ACAA-------AAGTTGTT--TGTAGCTAACTATTCTCAG-GACGTC    327
+                     || ||.|       |.|.||||  |.|.|||     |.|.|.| ||.|||
+21563-25384      249 CCTACCATTTAATGATGGTGTTTATTTTGCT-----TCCACTGAGAAGTC    293
+
+21431-25492      328 AAACAGTTTGCTAA--------TGGATTTGTCGTCCGTA---TAG-----    361
+                     .||||      |||        |||||||.|.||.| ||   |||     
+21563-25384      294 TAACA------TAATAAGAGGCTGGATTTTTGGTAC-TACTTTAGATTCG    336
+
+21431-25492      362 --GAGCAGCTGCCAATTCCACTGGCACTGTTATTATTAGCCCATCTACCA    409
+                       ||       ||.|.||| ||   ||  |||||.|||    ||     |
+21563-25384      337 AAGA-------CCCAGTCC-CT---AC--TTATTGTTA----AT-----A    364
+
+21431-25492      410 GCGCTACTATACGAAAAATTTACCCTGCTTTTATGCTGGGTTCTT-CAGT    458
+                     .||||||||                       |||.|  |||.|| .|||
+21563-25384      365 ACGCTACTA-----------------------ATGTT--GTTATTAAAGT    389
+
+21431-25492      459 -TGGTAATTTCTCATATGGTAAAATG----------GGCCGTTTCTT---    494
+                      ||..|||||| .||.|.||  ||||          ||..||||.||   
+21563-25384      390 CTGTGAATTTC-AATTTTGT--AATGATCCATTTTTGGGTGTTTATTACC    436
+
+21431-25492      495 -------CAATCATACTCTAGTTCTTTTGCCCGATGG-ATGTGGCACTTT    536
+                            ||| ||.|    ||||        .||||| |.|||       
+21563-25384      437 ACAAAAACAA-CAAA----AGTT--------GGATGGAAAGTG-------    466
+
+21431-25492      537 ACTT-AGAGCTTTTTATTGTATTCTAGAGCCTCGCTCTGGAAATTATTGT    585
+                     |.|| ||||        |.||||||||          ||..|||.|||  
+21563-25384      467 AGTTCAGAG--------TTTATTCTAG----------TGCGAATAATT--    496
+
+21431-25492      586 CCTGCTGGCAATTCCTATACTTCTTTTGCCACTTATCACACTCCTGCAAC    635
+                            |||            ||||||   ..|||..|.||       |
+21563-25384      497 -------GCA------------CTTTTG---AATATGTCTCT-------C    517
+
+21431-25492      636 AGATTGTTCTGATGGCAATTACAATCGTAATGCCAGTCTGAACTCTTTTA    685
+                     ||..|.||||.||||                            .|.||.|
+21563-25384      518 AGCCTTTTCTTATGG----------------------------ACCTTGA    539
+
+21431-25492      686 AGGA-------GTATTTT----AAT-TTACGTAACTGCACCTTTATGTAC    723
+                     ||||       |||.|||    ||| |||.|.||       |||.|||  
+21563-25384      540 AGGAAAACAGGGTAATTTCAAAAATCTTAGGGAA-------TTTGTGT--    580
+
+21431-25492      724 ACTT-ATAACATTACCGAAGATGAG--ATTTTAGAGTGGTTTGGCATTAC    770
+                       || |.||.|||      |||| |  ||||||.|.|...||...|..||
+21563-25384      581 --TTAAGAATATT------GATG-GTTATTTTAAAATATATTCTAAGCAC    621
+
+21431-25492      771 AC-------AA---ACTGCTCAAGGTGTTCACCTCTTCTCA-----TCTC    805
+                     ||       ||   |.|||     |||.||.||    ||||     |.||
+21563-25384      622 ACGCCTATTAATTTAGTGC-----GTGATCTCC----CTCAGGGTTTTTC    662
+
+21431-25492      806 GG-----------TATGTTGATTTG----TACGG------CGGCAATATG    834
+                     ||           |..||.||||||    || ||      |..||.||.|
+21563-25384      663 GGCTTTAGAACCATTGGTAGATTTGCCAATA-GGTATTAACATCACTAGG    711
+
+21431-25492      835 TTTCAA--TTTGCCACCTTGCCTGTTTATGATACTATTAAGTATTATTCT    882
+                     ||||||  |||    .|||||   |||| .|||    .|||  |||||  
+21563-25384      712 TTTCAAACTTT----ACTTGC---TTTA-CATA----GAAG--TTATT--    745
+
+21431-25492      883 ATCATTCCTCACAGT-ATTCGTTCTATCCAAAGTGATAGAAAAGCTTGGG    931
+                      |.|.||||   .|| |||| |||| ||     .|.|.|.|.||||.|.|
+21563-25384      746 -TGACTCCT---GGTGATTC-TTCT-TC-----AGGTTGGACAGCTGGTG    784
+
+21431-25492      932 CTGC--CTT-CTACGTATATAAACTTCAACCGTTA--ACTTTCCTGTTGG    976
+                     ||||  ||| .||.||...|.|.||||||||  ||  |||||.||.||..
+21563-25384      785 CTGCAGCTTATTATGTGGGTTATCTTCAACC--TAGGACTTTTCTATTAA    832
+
+21431-25492      977 ATTTTTCTGTTGATGG-----TTATATACGCAGA-GCTATAGACTGTGGT   1020
+                     |.|.|..||...||||     |||      |||| |||.|||||||||  
+21563-25384      833 AATATAATGAAAATGGAACCATTA------CAGATGCTGTAGACTGTG--    874
+
+21431-25492     1021 TTTAATGATTTGTCACAACTCCACTGCTCATA-------TG--------A   1055
+                           .|.|||.|      ||.|| ||||.|       ||        |
+21563-25384      875 ------CACTTGAC------CCTCT-CTCAGAAACAAAGTGTACGTTGAA    911
+
+21431-25492     1056 ATCCTTCGATGTTGAATCTGGAGTTTATTCAGTTTCGTCTTTCGAAGCAA   1105
+                     |||||||..|||.|||...|||.|.|||                   |||
+21563-25384      912 ATCCTTCACTGTAGAAAAAGGAATCTAT-------------------CAA    942
+
+21431-25492     1106 AACCTTCTGGCTCAGTT---GTGGAACAGGCTGAAGGTGTTGAATGTGAT   1152
+                     |  |||||..||   ||   ||..|||...|.|||..|.|||  |..|||
+21563-25384      943 A--CTTCTAACT---TTAGAGTCCAACCAACAGAATCTATTG--TTAGAT    985
+
+21431-25492     1153 TTTTCACCT-----------CTTCTG----TTTGGCACACCTCCTCAGGT   1187
+                     ||    |||           |||.||    |||||         |.|.||
+21563-25384      986 TT----CCTAATATTACAAACTTGTGCCCTTTTGG---------TGAAGT   1022
+
+21431-25492     1188 TTATAATTTCA--AGCGTTTG-----GTTTTTACCAATTGCA-----ATT   1225
+                     ||.|||...||  || .||||     ||||.|.|   |||.|     |..
+21563-25384     1023 TTTTAACGCCACCAG-ATTTGCATCTGTTTATGC---TTGGAACAGGAAG   1068
+
+21431-25492     1226 ATAATCTTACCAA----ATTGCTTTCACTTTTTTCTGTGAACGATTTTAC   1271
+                     |.||||  |.|||    .|||||                   ||||.|.|
+21563-25384     1069 AGAATC--AGCAACTGTGTTGCT-------------------GATTATTC   1097
+
+21431-25492     1272 TTGTAGTC--AAATATCTCCAGCAGCAATTGCTAGCAACTGTTATTCTTC   1319
+                     |    |||  |.|||..||| |||.||.||    .|.|||.|||      
+21563-25384     1098 T----GTCCTATATAATTCC-GCATCATTT----TCCACTTTTA------   1132
+
+21431-25492     1320 ACTGATTTTGGATTATTTTTCATACCCACTCAGTATGAAATCCGATCTCA   1369
+                     |.|| ||.||||.|.|.|      ||.|||.|  ||.||||  ||||||.
+21563-25384     1133 AGTG-TTATGGAGTGTCT------CCTACTAA--ATTAAAT--GATCTCT   1171
+
+21431-25492     1370 GTGTTAGT------TCTGCTGGTCCAATATCCCAGTTTAATT-------A   1406
+                     |..|||.|      |.|||.|.|.||.|       |.|||||       |
+21563-25384     1172 GCTTTACTAATGTCTATGCAGATTCATT-------TGTAATTAGAGGTGA   1214
+
+21431-25492     1407 TAAA--CAGTCCTTTTCTAATC---CCA---CA---TG------TT--TG   1437
+                     |.||  |||      .|.||||   |||   ||   ||      ||  ||
+21563-25384     1215 TGAAGTCAG------ACAAATCGCTCCAGGGCAAACTGGAAAGATTGCTG   1258
+
+21431-25492     1438 ATTTTAGCGACTGTTCCTCATAACCTTAC----TACTATTACTAAGCCT-   1482
+                     |||.||          .|.|||| .||||    |..|.||||  ||.|| 
+21563-25384     1259 ATTATA----------ATTATAA-ATTACCAGATGATTTTAC--AGGCTG   1295
+
+21431-25492     1483 CTTAAGTACAGCT----ATATTAACAAGTGCTCTCGTCTTCTTTCT---G   1525
+                     |.|   ||.||||    ||..||||||         ||||..||||   |
+21563-25384     1296 CGT---TATAGCTTGGAATTCTAACAA---------TCTTGATTCTAAGG   1333
+
+21431-25492     1526 ATGATCGTACT--GAAGTACCT---CAG-----TTAGTGAATGCTAATCA   1565
+                     .||.|.|||.|  .||.|||||   .||     |||| |||..|||||  
+21563-25384     1334 TTGGTGGTAATTATAATTACCTGTATAGATTGTTTAG-GAAGTCTAAT--   1380
+
+21431-25492     1566 ATACTCACCCTGTGTACCCATTGTCCCATCCACTGTGTGGGA-AGACGGT   1614
+                        ||||        |.||.||               ||.|| |||    
+21563-25384     1381 ---CTCA--------AACCTTT---------------TGAGAGAGA----   1400
+
+21431-25492     1615 GATTATTATAGGAAACAACT---ATCT-CCACTTGAAGGTGGTGGCTGG-   1659
+                        ||||       .|||||   |||| .||            |||.|| 
+21563-25384     1401 ---TATT-------TCAACTGAAATCTATCA------------GGCCGGT   1428
+
+21431-25492     1660 -------CTTGTTGCTAGTGGCTCAACTGTCGCCATGACTGAGCAATTAC   1702
+                            ||||    ||.|||      |||     |||   ||...||| 
+21563-25384     1429 AGCACACCTTG----TAATGG------TGT-----TGA---AGGTTTTA-   1459
+
+21431-25492     1703 AGATGG--GCTTTGGTATTACAGTTCAATATGGT-----ACAGACACCAA   1745
+                       ||.|  .||||..| |||||.|  .|||||||     ||  .|||.||
+21563-25384     1460 --ATTGTTACTTTCCT-TTACAAT--CATATGGTTTCCAAC--CCACTAA   1502
+
+21431-25492     1746 TAGTGTTTG-CCCCAAGC-----------------------TTGAATTTG   1771
+                     |.|||||.| ..||||.|                       |||||.|| 
+21563-25384     1503 TGGTGTTGGTTACCAACCATACAGAGTAGTAGTACTTTCTTTTGAACTT-   1551
+
+21431-25492     1772 CTA-ATGACAC--------------------AAAAATTGTCT-CTCAATT   1799
+                     ||| ||| |||                    |||||  |||| || ||||
+21563-25384     1552 CTACATG-CACCAGCAACTGTTTGTGGACCTAAAAA--GTCTACT-AATT   1597
+
+21431-25492     1800 AGG-------CAATTGCGTGGAATATTC--CCTCTATGGTGTTTCGGGCC   1840
+                     .||       |||.||.|| .||| |||  |.||.|||||.|..|.|||.
+21563-25384     1598 TGGTTAAAAACAAATGTGT-CAAT-TTCAACTTCAATGGTTTAACAGGCA   1645
+
+21431-25492     1841 GTGGTGTTTTT---------------------------------------   1851
+                     ..||||||.||                                       
+21563-25384     1646 CAGGTGTTCTTACTGAGTCTAACAAAAAGTTTCTGCCTTTCCAACAATTT   1695
+
+21431-25492     1852 --CAGA---ATTGC--ACA--------GCTGTAGGTGTTCCACAGCAGCG   1886
+                       ||||   |||||  |||        |||||..|||.|||||||     
+21563-25384     1696 GGCAGAGACATTGCTGACACTACTGATGCTGTCCGTGATCCACAG-----   1740
+
+21431-25492     1887 CTTTGTTTATGATGCGTACCAGAATTTAGTTGGCTATTATTCTGATGATG   1936
+                                         |.|.||.||         |||||  |||  
+21563-25384     1741 --------------------ACACTTGAG---------ATTCT--TGA--   1757
+
+21431-25492     1937 GCAACTAC------TACTGTTTGCGTGCTTGTGTTAGTGTTCCTGTTTCT   1980
+                       .|.|||      |.|| |||| |||   ||||.||||||         
+21563-25384     1758 --CATTACACCATGTTCT-TTTG-GTG---GTGTCAGTGTT---------   1791
+
+21431-25492     1981 GTCATCTATGATAA----AGAAACTAAAAC------CCA-----CGCTAC   2015
+                               ||||    ||.|||.||.||      |||     |..|.|
+21563-25384     1792 ----------ATAACACCAGGAACAAATACTTCTAACCAGGTTGCTGTTC   1831
+
+21431-25492     2016 TTTATTTGGTAGTGTTGCATGTGAACACATTTCTTCTACCATGTCTCAAT   2065
+                     |||||..||         ||||.|||               || |.||..
+21563-25384     1832 TTTATCAGG---------ATGTTAAC---------------TG-CACAGA   1856
+
+21431-25492     2066 ACTCCC-GTT-CTACGC-----GATCAATGCTTAAAC------GGCGAG-   2101
+                     |.|||| ||| |||..|     ||||||  ||||..|      ||||.| 
+21563-25384     1857 AGTCCCTGTTGCTATTCATGCAGATCAA--CTTACTCCTACTTGGCGTGT   1904
+
+21431-25492     2102 --ATTCTACA----------TATGGACCCCTTCAGACACCTGTTGGTTGT   2139
+                       ||||||||          |.|       ||||.||||.||..||.|||
+21563-25384     1905 TTATTCTACAGGTTCTAATGTTT-------TTCAAACACGTGCAGGCTGT   1947
+
+21431-25492     2140 GTCTTAGG------ACTTGTTAATTCCTCTTTGTTCGTAGAGGACTGCAA   2183
+                     .|..||||      ||.|||.||...|||         |.|.||.||..|
+21563-25384     1948 TTAATAGGGGCTGAACATGTCAACAACTC---------ATATGAGTGTGA   1988
+
+21431-25492     2184 GTTGCCTCTTGGTCAATCTCTCTGTGCTCTTCCTGACACAC---CTAGTA   2230
+                     ..|.||..|||||..|..|.|.||.|||..|..|.|.||.|   |||.|.
+21563-25384     1989 CATACCCATTGGTGCAGGTATATGCGCTAGTTATCAGACTCAGACTAATT   2038
+
+21431-25492     2231 CTCTCACACCTCGCAGTGTGCGCTCTGTTCCAGGTGAAATGCGCTTGGC-   2279
+                     ||      |||||  |.|.||.|   ||    .|||.|    |||.|.| 
+21563-25384     2039 CT------CCTCG--GCGGGCAC---GT----AGTGTA----GCTAGTCA   2069
+
+21431-25492     2280 ATCCATC---GCTTTTAATCATCCTAT-TCA---GGTTGATCAACTTAAT   2322
+                     |||||||   ||.|      |..|||| |||   |||..|..||.||  .
+21563-25384     2070 ATCCATCATTGCCT------ACACTATGTCACTTGGTGCAGAAAATT--C   2111
+
+21431-25492     2323 AGTAG-TTATTTTAAATTAAGT--------ATACCCACTAATTTTTCCTT   2363
+                     |||.| |||.|.|||  |||.|        ||||||||.||||||.|..|
+21563-25384     2112 AGTTGCTTACTCTAA--TAACTCTATTGCCATACCCACAAATTTTACTAT   2159
+
+21431-25492     2364 TGGTGTGA-CTCAGGAGTACATTCAGACA---------ACCATTCAGAAA   2403
+                     |.||||.| |.|||    |.||||...||         ||||   |||.|
+21563-25384     2160 TAGTGTTACCACAG----AAATTCTACCAGTGTCTATGACCA---AGACA   2202
+
+21431-25492     2404 GTTACTGTTGATTGTAAACAGTACGTTTGCAATGGT--TTCCAGAAGTG-   2450
+                        .|.||.|||||||.|..||||.||||   ||||  |||   ||.|| 
+21563-25384     2203 ---TCAGTAGATTGTACAATGTACATTTG---TGGTGATTC---AACTGA   2243
+
+21431-25492     2451 -TG-AGCAAT-TACTACTCGAGTATGGCCAG-TTTTGTTCCAAAATAAAC   2496
+                      || |||||| |..|..|..|.||||| ||| ||||||.|..||.|||||
+21563-25384     2244 ATGCAGCAATCTTTTGTTGCAATATGG-CAGTTTTTGTACACAATTAAAC   2292
+
+21431-25492     2497 CAGGCTCTCCATGGTGCCAAT-----TT---------------ACGCCAG   2526
+                     |..|||.|...|||    |||     ||               || |||.
+21563-25384     2293 CGTGCTTTAACTGG----AATAGCTGTTGAACAAGACAAAAACAC-CCAA   2337
+
+21431-25492     2527 GATGATTCTGTAC--GT------AATTTGTTTGCGAGCGTGAAAAGCTCT   2568
+                     ||.|.||.||.||  ||      |||||             |.|      
+21563-25384     2338 GAAGTTTTTGCACAAGTCAAACAAATTT-------------ACA------   2368
+
+21431-25492     2569 CAATCATCTCCTATCATACCAGGTTTTGGAGGTGACTTTAATTTGACACT   2618
+                      ||.||.|.||.||.|   .||.||||||.|||   ||||||||..|||.
+21563-25384     2369 -AAACACCACCAATTA---AAGATTTTGGTGGT---TTTAATTTTTCACA   2411
+
+21431-25492     2619 TCTAGAACCTGTTTCTATATCTA---CTGGCA----GTCGTAGTGCACGT   2661
+                     ..||..|||.|.|.|   |||.|   |..|||    |||.|         
+21563-25384     2412 AATATTACCAGATCC---ATCAAAACCAAGCAAGAGGTCAT---------   2449
+
+21431-25492     2662 AGTGCTATTGAGGATTTGCTATTTGACAAAGTCATTATAGCTGATCCTGG   2711
+                         .||||||.|||.|.||.||..|||||||.|...|.||.|||.||||
+21563-25384     2450 ----TTATTGAAGATCTACTTTTCAACAAAGTGACACTTGCAGATGCTGG   2495
+
+21431-25492     2712 TTATATGCAAGGTTACGATGATTGCATGCAGCAAGGTCCAGCAT----CA   2757
+                     .|..||..||...||.|.|||||||      |..|||    .||    |.
+21563-25384     2496 CTTCATCAAACAATATGGTGATTGC------CTTGGT----GATATTGCT   2535
+
+21431-25492     2758 GCTCGTGATCTTATTTGTGCTCAATATGT-----GGCTGGTTACAAAGTA   2802
+                     |||.|.||.||.||||||||.||| |.||     |||  .||||  .||.
+21563-25384     2536 GCTAGAGACCTCATTTGTGCACAA-AAGTTTAACGGC--CTTAC--TGTT   2580
+
+21431-25492     2803 TTACCTCCT---CTTATGGATGTTAAT-ATGG---AAGCCGCGTATACTT   2845
+                     ||.||.|||   ||.|..|||| .||| ||.|   ||      ||.||||
+21563-25384     2581 TTGCCACCTTTGCTCACAGATG-AAATGATTGCTCAA------TACACTT   2623
+
+21431-25492     2846 CATCTTTGCTTGGCAGCA----TAGCAGG---------TGTTGGCTGGAC   2882
+                                  |.|||    ||||.||         |..|||.|||||
+21563-25384     2624 -------------CTGCACTGTTAGCGGGTACAATCACTTCTGGTTGGAC   2660
+
+21431-25492     2883 ------TGCTGGCTTATCCTCCTTTGCTGCTATT-------CCATTTGCA   2919
+                           |||.||            |||||| |||       |||||||| 
+21563-25384     2661 CTTTGGTGCAGG------------TGCTGC-ATTACAAATACCATTTGC-   2696
+
+21431-25492     2920 CAGAGTAT--------CTTTTATAGGTTAAACGGTGTTGGCATTACTCAA   2961
+                          |||        |  |||||||||.||.|||.||||..||||.||.
+21563-25384     2697 -----TATGCAAATGGC--TTATAGGTTTAATGGTATTGGAGTTACACAG   2739
+
+21431-25492     2962 CAGGTTCTTTCAGAGAACCAAAAGCTTATTGCCAATAAGTTTAATCAGGC   3011
+                     .|.|||||.|..|||||||||||..|.||||||||..|.||||||     
+21563-25384     2740 AATGTTCTCTATGAGAACCAAAAATTGATTGCCAACCAATTTAAT-----   2784
+
+21431-25492     3012 TCTGGGCGCTAT--GCAAA---CAGGCTTCACT-------ACAACTAATG   3049
+                         .|.|||||  |||||   ||.|..|||||       |||.|.|.||
+21563-25384     2785 ----AGTGCTATTGGCAAAATTCAAGACTCACTTTCTTCCACAGCAAGTG   2830
+
+21431-25492     3050 AAGCTTTTCAG--AAGGTTCAGGATGCTGTGAACAACAATGCACAGGCT-   3096
+                     .| |||    |  ||..||||.||||..||.|||.|.||||||||.||| 
+21563-25384     2831 CA-CTT----GGAAAACTTCAAGATGTGGTCAACCAAAATGCACAAGCTT   2875
+
+21431-25492     3097 ------------CTATCCAAATTAGCTAGCGAGCTATCTAATACTTTTGG   3134
+                                 .||..|||.|||||          ||.||   ||||||
+21563-25384     2876 TAAACACGCTTGTTAAACAACTTAGC----------TCCAA---TTTTGG   2912
+
+21431-25492     3135 TGCTATTTC-CGCCTCTATTGGA-GACATCATACAACGTCTTG---ATGT   3179
+                     |||.||||| .|  |.|.||..| ||.|||.|...||||||||   |.||
+21563-25384     2913 TGCAATTTCAAG--TGTTTTAAATGATATCCTTTCACGTCTTGACAAAGT   2960
+
+21431-25492     3180 T----CTCGAACAGGACGCCCAAAT---------------AGACAGACTT   3210
+                     |    ||       ||.|..|||||               ||.|||||| 
+21563-25384     2961 TGAGGCT-------GAAGTGCAAATTGATAGGTTGATCACAGGCAGACT-   3002
+
+21431-25492     3211 ATTAA---TGGCCG-----TTTGA--CAACACTAAATGCTTTTGTTGCGC   3250
+                      |.||   |.||.|     |.|||  |||||.|.|||       |.|.||
+21563-25384     3003 -TCAAAGTTTGCAGACATATGTGACTCAACAATTAAT-------TAGAGC   3044
+
+21431-25492     3251 AGCAGCTTGTTCGTTCCGAATCAG-----CTGC---TCTTTCGGCTCAAT   3292
+                     .||||            .||||||     ||||   ||||.|.|||    
+21563-25384     3045 TGCAG------------AAATCAGAGCTTCTGCTAATCTTGCTGCT----   3078
+
+21431-25492     3293 TGGCTAAAGATAAAGTCAATGAGTGTGT-CAAGGCACAATC--CAAGCGT   3339
+                       .||||    ||.||||  |||||||| |..|| ||||||  .|||.||
+21563-25384     3079 --ACTAA----AATGTCA--GAGTGTGTACTTGG-ACAATCAAAAAGAGT   3119
+
+21431-25492     3340 TCTGGA-TTTTGCGGTCAAGGCACACATATAGTGTCCTTTGTT--GTAAA   3386
+                     |   || |||||.||..|.|||...|||.|..|||||||...|  ||.| 
+21563-25384     3120 T---GATTTTTGTGGAAAGGGCTATCATCTTATGTCCTTCCCTCAGTCA-   3165
+
+21431-25492     3387 TGCCCCTAATGGCCTTTA--CTTCATGCATGTTGGTTATTACCCTAGC--   3432
+                      ||.|||.||||  |.||  ||||.|||||||...||||..|||| ||  
+21563-25384     3166 -GCACCTCATGG--TGTAGTCTTCTTGCATGTGACTTATGTCCCT-GCAC   3211
+
+21431-25492     3433 --------AAC--CACATTGAGGTTGTTTCTGCTTATGGTCTTTGCGATT   3472
+                             |||  ||||           .|||||..||...||||    |
+21563-25384     3212 AAGAAAAGAACTTCACA-----------ACTGCTCCTGCCATTTG----T   3246
+
+21431-25492     3473 CAGCTAACCCTACTAATTGTATAGC-------CCCTGTTAATGGCTACTT   3515
+                     ||           |.||.|.|.|||       ||..||.|| ||...|||
+21563-25384     3247 CA-----------TGATGGAAAAGCACACTTTCCTCGTGAA-GGTGTCTT   3284
+
+21431-25492     3516 TATT--AAA----ACTAATAACACTAGGATTGT-----TGATGAGTGGTC   3554
+                     |.||  |||    ||     ||||| ||.||||     ..|.||.|    
+21563-25384     3285 TGTTTCAAATGGCAC-----ACACT-GGTTTGTAACACAAAGGAAT----   3324
+
+21431-25492     3555 ATATACTGGCTCGTCCTTCTATGCACCTGAGCCCATCACCTCCCTTAATA   3604
+                                     ||.||||.|||   .|..||||      |||.||
+21563-25384     3325 ----------------TTTTATGAACC---ACAAATCA------TTACTA   3349
+
+21431-25492     3605 C---------------------TAAGT---ATGTTGCACCACAGG---TG   3627
+                     |                     |||.|   ||||||.|  |.|||   ||
+21563-25384     3350 CAGACAACACATTTGTGTCTGGTAACTGTGATGTTGTA--ATAGGAATTG   3397
+
+21431-25492     3628 ACATACCAAAACATTTCTACTAACCTCCCTCCTCCTCTTCTCGGCAATTC   3677
+                     .|  |.|||.|||.|| ||          |..||||.|     |||    
+21563-25384     3398 TC--AACAACACAGTT-TA----------TGATCCTTT-----GCA----   3425
+
+21431-25492     3678 CACCGGGATT-GAC---TTCCAAGATGAGTTGGATGAGTTTTTCAAAAAT   3723
+                      |||.|.||| |||   |||.|.||.|||||.|||.|.|.|||.||.|||
+21563-25384     3426 -ACCTGAATTAGACTCATTCAAGGAGGAGTTAGATAAATATTTTAAGAAT   3474
+
+21431-25492     3724 GTT--AGCACCAG-TATACCTAATTTTGGT----TCTCTAACACAGATTA   3766
+                     ..|  |.|||||| |.|   |.||||.|||    |||||..|    ||||
+21563-25384     3475 CATACATCACCAGATGT---TGATTTAGGTGACATCTCTGGC----ATTA   3517
+
+21431-25492     3767 ATACT----------ACATTACTCGATCTTACCTACGAGATGTTG-TCTC   3805
+                     ||.||          |||||            |.|..|||..||| .|.|
+21563-25384     3518 ATGCTTCAGTTGTAAACATT------------CAAAAAGAAATTGACCGC   3555
+
+21431-25492     3806 TTCAA---------CAAGTTGTTAAAGCCCTTAATGAGTCTTACATAGAC   3846
+                     .||||         ||||...|||        |||||.|||..|||.||.
+21563-25384     3556 CTCAATGAGGTTGCCAAGAATTTA--------AATGAATCTCTCATCGAT   3597
+
+21431-25492     3847 CTTAAAGAGCTTGGCAATTATACTTATTACAACAAATGGCCGTGGTACAT   3896
+                     ||..||||.|||||.||.|||....|.||.|..||||||||.||||||||
+21563-25384     3598 CTCCAAGAACTTGGAAAGTATGAGCAGTATATAAAATGGCCATGGTACAT   3647
+
+21431-25492     3897 TTGGCTTGGTTTCATTGCTGGGCTTG-TTGCCTTAGCTCT-ATGCGT---   3941
+                     ||||||.|||||.||.||| |||||| |||||.|||   | ||| ||   
+21563-25384     3648 TTGGCTAGGTTTTATAGCT-GGCTTGATTGCCATAG---TAATG-GTGAC   3692
+
+21431-25492     3942 -CTTCTTCATACTGTGCTGCACTG----GTTGTGGCACAAACTGTA--TG   3984
+                      .||    ||.||.|||||.| ||    ||||         |||||  ||
+21563-25384     3693 AATT----ATGCTTTGCTGTA-TGACCAGTTG---------CTGTAGTTG   3728
+
+21431-25492     3985 GGAAAACTTAAGTGTAATCGTTGTTGT-GAT--------AGATATGAGGA   4025
+                          .||.|||.|...|.|||.|||| |||        |.||.|||.||
+21563-25384     3729 -----TCTCAAGGGCTGTTGTTCTTGTGGATCCTGCTGCAAATTTGATGA   3773
+
+21431-25492     4026 ATACGACCTC-GAGC-----CGCATAAGG--------TTCATGTTCAC-T   4060
+                     |.|||| ||| ||||     |.|| ||||        |.||| |.||| |
+21563-25384     3774 AGACGA-CTCTGAGCCAGTGCTCA-AAGGAGTCAAATTACAT-TACACAT   3820
+
+21431-25492     4061 AA   4062
+                     ||
+21563-25384     3821 AA   3822
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,161 @@
+########################################
+# Program: needle
+# Rundate: Fri  5 Apr 2024 14:14:37
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20240405-141435-0836-45938778-p1m.asequence
+#    -bsequence emboss_needle-I20240405-141435-0836-45938778-p1m.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: AXP07355.1
+# 2: YP_009724390.1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1455
+# Identity:     436/1455 (30.0%)
+# Similarity:   664/1455 (45.6%)
+# Gaps:         284/1455 (19.5%)
+# Score: 1567.5
+# 
+#
+#=======================================
+
+AXP07355.1         1 MIHSVFLLMFLLTPTESYVDVGPDSAKSVCIEVDIQQTFFDKTWPRPIDV     50
+                         :|:.:.|| |..|          |.|:.:..:...     |.....
+YP_009724390.      1 ----MFVFLVLL-PLVS----------SQCVNLTTRTQL-----PPAYTN     30
+
+AXP07355.1        51 SKADGIIYPQGRTYSNITITYQGLF-PYQGDHGDMYVYSAGHATGTTPQK     99
+                     |...|:.||.....|::..:.|.|| |:   ..::..:.|.|.:||...|
+YP_009724390.     31 SFTRGVYYPDKVFRSSVLHSTQDLFLPF---FSNVTWFHAIHVSGTNGTK     77
+
+AXP07355.1       100 LFVANYSQDVKQFANGFVVRIGAAANSTGTVIISPSTSATIRKIYPAFML    149
+                     .|    ...|..|             :.|....|...|..||    .::.
+YP_009724390.     78 RF----DNPVLPF-------------NDGVYFASTEKSNIIR----GWIF    106
+
+AXP07355.1       150 GSSVGNFSYGKMGRFFNHTLVLLPDGCGTLLRA--FYCILEPRSGNYCPA    197
+                     |:::.:.:         .:|:::.:....:::.  |....:|..|.|   
+YP_009724390.    107 GTTLDSKT---------QSLLIVNNATNVVIKVCEFQFCNDPFLGVY---    144
+
+AXP07355.1       198 GNSYTSFATYHTPATDCSDGNYNRNASLNSFKEYFNLRNCTFMYTYNITE    247
+                              ||         ..|::...:.|:.|.:..||||.|   :::
+YP_009724390.    145 ---------YH---------KNNKSWMESEFRVYSSANNCTFEY---VSQ    173
+
+AXP07355.1       248 DEILEWFGITQTAQGVHLFSSRYVDLY-----------------------    274
+                     ..:::..|.....:.:..|..:.:|.|                       
+YP_009724390.    174 PFLMDLEGKQGNFKNLREFVFKNIDGYFKIYSKHTPINLVRDLPQGFSAL    223
+
+AXP07355.1       275 --------GGNMFQFATLPVYDTIKYYSIIPHSIRSIQSDRKAW----AA    312
+                             |.|:.:|.||         ..:..|..:.......|    ||
+YP_009724390.    224 EPLVDLPIGINITRFQTL---------LALHRSYLTPGDSSSGWTAGAAA    264
+
+AXP07355.1       313 FYVYKLQPLTFLLDFSVDGYIRRAIDCGFNDLSQLHCSYESFDVESGVYS    362
+                     :||..|||.||||.::.:|.|..|:||..:.||:..|:.:||.||.|:|.
+YP_009724390.    265 YYVGYLQPRTFLLKYNENGTITDAVDCALDPLSETKCTLKSFTVEKGIYQ    314
+
+AXP07355.1       363 VSSFEAKPSGSVVEQAEGVE-CDFSPLLFGTP-PQVYNFKRLVFTNCNYN    410
+                     .|:|..:|:.|:|....... |.|..:...|. ..||.:.|...:||..:
+YP_009724390.    315 TSNFRVQPTESIVRFPNITNLCPFGEVFNATRFASVYAWNRKRISNCVAD    364
+
+AXP07355.1       411 LTKLLSLFSVNDFTCSQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSS    460
+                     .:.|.:..|.:.|.|..:||..:...|::::..|.|.........::...
+YP_009724390.    365 YSVLYNSASFSTFKCYGVSPTKLNDLCFTNVYADSFVIRGDEVRQIAPGQ    414
+
+AXP07355.1       461 AGPISQFNYKQSFSNPTCLILATVPHNLTTITKPLKYSYINKCSRLLS--    508
+                     .|.|:.:|||.......| ::|...:||.:.... .|:|:.:..|..:  
+YP_009724390.    415 TGKIADYNYKLPDDFTGC-VIAWNSNNLDSKVGG-NYNYLYRLFRKSNLK    462
+
+AXP07355.1       509 ----DDRTEVPQLVNANQYSPCVPIVPSTVWEDGDYYRKQLSPLEGGGWL    554
+                         |..||:.|..:    :||..:      |..:.|    .||:..|:.
+YP_009724390.    463 PFERDISTEIYQAGS----TPCNGV------EGFNCY----FPLQSYGFQ    498
+
+AXP07355.1       555 VASGSTVAMTEQLQMGFGITVQYGTDTNSVC-PKLEFANDTKIVSQLGNC    603
+                     ..:|........:.:.|.:.....|    || ||    ..|.:|.  ..|
+YP_009724390.    499 PTNGVGYQPYRVVVLSFELLHAPAT----VCGPK----KSTNLVK--NKC    538
+
+AXP07355.1       604 VEYSLYGVSGRGVFQNCTAVGVPQQRF------VYDAYQ-----------    636
+                     |.::..|::|.||........:|.|:|      ..||.:           
+YP_009724390.    539 VNFNFNGLTGTGVLTESNKKFLPFQQFGRDIADTTDAVRDPQTLEILDIT    588
+
+AXP07355.1       637 -----------------NLVGYYSDDGNYYCLRACVSVPVSVIYDKETKT    669
+                                      |.|.....|.|      |..|||::        
+YP_009724390.    589 PCSFGGVSVITPGTNTSNQVAVLYQDVN------CTEVPVAI--------    624
+
+AXP07355.1       670 HATLFGSVACEHISSTMSQYSRSTRSMLKRRDSTYGPLQTPVGCVLGL--    717
+                     ||        :.::.|...||..:           ...||..||::|.  
+YP_009724390.    625 HA--------DQLTPTWRVYSTGS-----------NVFQTRAGCLIGAEH    655
+
+AXP07355.1       718 VNSSLFVEDCKLPLGQSLCALPDTPSTLTPRSVRSVPGEMRLA-------    760
+                     ||:|.   :|.:|:|..:||...| .|.:||..|||..:..:|       
+YP_009724390.    656 VNNSY---ECDIPIGAGICASYQT-QTNSPRRARSVASQSIIAYTMSLGA    701
+
+AXP07355.1       761 --SIAFNHPIQVDQLNSSYFKLSIPTNFSFGVTQEYIQTTIQKVTVDCKQ    808
+                       |:|:::       ||    ::|||||:..||.|.:..::.|.:|||..
+YP_009724390.    702 ENSVAYSN-------NS----IAIPTNFTISVTTEILPVSMTKTSVDCTM    740
+
+AXP07355.1       809 YVCNGFQKCEQLLLEYGQFCSKINQALHGANLRQDDSVRNLFASVKSSQS    858
+                     |:|....:|..|||:||.||:::|:||.|..:.||.:.:.:||.||....
+YP_009724390.    741 YICGDSTECSNLLLQYGSFCTQLNRALTGIAVEQDKNTQEVFAQVKQIYK    790
+
+AXP07355.1       859 SPIIPGFGGDFNLTLLEPVSISTGSRSARSAIEDLLFDKVIIADPGYMQG    908
+                     :|.|..||| ||.:.:.|   .....|.||.||||||:||.:||.|:::.
+YP_009724390.    791 TPPIKDFGG-FNFSQILP---DPSKPSKRSFIEDLLFNKVTLADAGFIKQ    836
+
+AXP07355.1       909 YDDCMQQGPASARDLICAQYVAGYKVLPPLMDVNMEAAYTSSLLGSIAGV    958
+                     |.||:  |..:||||||||...|..|||||:...|.|.|||:||......
+YP_009724390.    837 YGDCL--GDIAARDLICAQKFNGLTVLPPLLTDEMIAQYTSALLAGTITS    884
+
+AXP07355.1       959 GWTAGLSSFAAIPFAQSIFYRLNGVGITQQVLSENQKLIANKFNQALGAM   1008
+                     |||.|..:...||||..:.||.||:|:||.||.||||||||:||.|:|.:
+YP_009724390.    885 GWTFGAGAALQIPFAMQMAYRFNGIGVTQNVLYENQKLIANQFNSAIGKI    934
+
+AXP07355.1      1009 QTGFTTTNEAFQKVQDAVNNNAQALSKLASELSNTFGAISASIGDIIQRL   1058
+                     |...::|..|..|:||.||.|||||:.|..:||:.|||||:.:.||:.||
+YP_009724390.    935 QDSLSSTASALGKLQDVVNQNAQALNTLVKQLSSNFGAISSVLNDILSRL    984
+
+AXP07355.1      1059 DVLEQDAQIDRLINGRLTTLNAFVAQQLVRSESAALSAQLAKDKVNECVK   1108
+                     |.:|.:.||||||.|||.:|..:|.|||:|:.....||.||..|::|||.
+YP_009724390.    985 DKVEAEVQIDRLITGRLQSLQTYVTQQLIRAAEIRASANLAATKMSECVL   1034
+
+AXP07355.1      1109 AQSKRSGFCGQGTHIVSFVVNAPNGLYFMHVGYYPSNHIEVVSAYGLCDS   1158
+                     .||||..|||:|.|::||..:||:|:.|:||.|.|:......:|..:|..
+YP_009724390.   1035 GQSKRVDFCGKGYHLMSFPQSAPHGVVFLHVTYVPAQEKNFTTAPAICHD   1084
+
+AXP07355.1      1159 ANPTNCIAPVNGYFIKTNNTRIVDEWSYTGSSFYAPEPITSLNTKYVAPQ   1208
+                     .   ....|..|.|: :|.|    .|..|..:||.|:.||:.|| :|:..
+YP_009724390.   1085 G---KAHFPREGVFV-SNGT----HWFVTQRNFYEPQIITTDNT-FVSGN   1125
+
+AXP07355.1      1209 ------VTYQNISTNLPPPLLGNSTGIDFQDELDEFFKNVSTSIPNFGSL   1252
+                           :....:...|.|.|      ..|::|||::|||.::...:.|.:
+YP_009724390.   1126 CDVVIGIVNNTVYDPLQPEL------DSFKEELDKYFKNHTSPDVDLGDI   1169
+
+AXP07355.1      1253 TQINTTLLDLTYEMLSLQQVVKALNESYIDLKELGNYTYYNKWPWYIWLG   1302
+                     :.||.:::::..|:..|.:|.|.||||.|||:|||.|..|.|||||||||
+YP_009724390.   1170 SGINASVVNIQKEIDRLNEVAKNLNESLIDLQELGKYEQYIKWPWYIWLG   1219
+
+AXP07355.1      1303 FIAGLVALALCVFFILCCTGCGTNCMGKLKCNRCCDRYEEYDLEP--HKV   1350
+                     |||||:|:.:....:.|.|.|.:...|...|..|| :::|.|.||  ..|
+YP_009724390.   1220 FIAGLIAIVMVTIMLCCMTSCCSCLKGCCSCGSCC-KFDEDDSEPVLKGV   1268
+
+AXP07355.1      1351 HVH--   1353
+                     .:|  
+YP_009724390.   1269 KLHYT   1273
+
+
+#---------------------------------------
+#---------------------------------------

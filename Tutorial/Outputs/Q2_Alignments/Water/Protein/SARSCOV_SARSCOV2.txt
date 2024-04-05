@@ -1,11 +1,11 @@
 ########################################
 # Program: water
-# Rundate: Fri  5 Apr 2024 12:13:11
+# Rundate: Fri  5 Apr 2024 14:18:55
 # Commandline: water
 #    -auto
 #    -stdout
-#    -asequence emboss_water-I20240405-121308-0690-14826658-p1m.asequence
-#    -bsequence emboss_water-I20240405-121308-0690-14826658-p1m.bsequence
+#    -asequence emboss_water-I20240405-141842-0589-24054666-p1m.asequence
+#    -bsequence emboss_water-I20240405-141842-0589-24054666-p1m.bsequence
 #    -datafile EBLOSUM62
 #    -gapopen 10.0
 #    -gapextend 0.5
@@ -19,136 +19,124 @@
 #=======================================
 #
 # Aligned_sequences: 2
-# 1: EMBOSS_001
-# 2: EMBOSS_001
+# 1: ABB29898.2
+# 2: YP_009724390.1
 # Matrix: EBLOSUM62
 # Gap_penalty: 10.0
 # Extend_penalty: 0.5
 #
-# Length: 1422
-# Identity:     247/1422 (17.4%)
-# Similarity:   433/1422 (30.5%)
-# Gaps:         576/1422 (40.5%)
-# Score: 127.0
+# Length: 1277
+# Identity:     975/1277 (76.4%)
+# Similarity:  1111/1277 (87.0%)
+# Gaps:          26/1277 ( 2.0%)
+# Score: 5230.0
 # 
 #
 #=======================================
 
-EMBOSS_001        50 DTLYLTQDLFLPFYSNVTG-FHTINHTFGNPV-IPF--KDGIYFAATEKS     95
-                     :|.:||::|.|  |.::.| .|..:.|..:.: |.|  ||..|       
-EMBOSS_001      1245 ETKFLTENLLL--YIDINGNLHPDSATLVSDIDITFLKKDAPY-------   1285
+ABB29898.2         1 MFIFLLFLTLTSGSDLDRCTTFDDVQAPNYTQHTSSMRGVYYPDEIFRSD     50
+                     ||:||:.|.|.| |.....||...: .|.||  .|..|||||||::|||.
+YP_009724390.      1 MFVFLVLLPLVS-SQCVNLTTRTQL-PPAYT--NSFTRGVYYPDKVFRSS     46
 
-EMBOSS_001        96 NVVRGWVFGSTMNNKSQSVIII-----NNSTNVVIRACNFELCDNPFFAV    140
-                           :.|..:.....:.::|     ..:|.::.:|......|| :...
-EMBOSS_001      1286 ------IVGDVVQEGVLTAVVIPTKKAGGTTEMLAKALRKVPTDN-YITT   1328
+ABB29898.2        51 TLYLTQDLFLPFYSNVTGFHTI-----NHT--FGNPVIPFKDGIYFAATE     93
+                     .|:.||||||||:||||.||.|     |.|  |.|||:||.||:|||:||
+YP_009724390.     47 VLHSTQDLFLPFFSNVTWFHAIHVSGTNGTKRFDNPVLPFNDGVYFASTE     96
 
-EMBOSS_001       141 SKPMGTQTHTM---------------IFDNAFNCTFEYISDAFSLDVSEK    175
-                     ....|...:|:               |..:..:...:.|....|.::.|.
-EMBOSS_001      1329 YPGQGLNGYTVEEAKTVLKKCKSAFYILPSIISNEKQEILGTVSWNLREM   1378
+ABB29898.2        94 KSNVVRGWVFGSTMNNKSQSVIIINNSTNVVIRACNFELCDNPFFAV---    140
+                     |||::|||:||:|:::|:||::|:||:|||||:.|.|:.|::||..|   
+YP_009724390.     97 KSNIIRGWIFGTTLDSKTQSLLIVNNATNVVIKVCEFQFCNDPFLGVYYH    146
 
-EMBOSS_001       176 SGNFKHLREFV------------FKNKDGFLYVYKGYQPIDVVRDLPSGF    213
-                     ..:.:..|:.:            .:.|      |||.:..:.|.|..:.|
-EMBOSS_001      1379 LAHAEETRKLMPVCVETKAIVSTIQRK------YKGIKIQEGVVDYGARF   1422
+ABB29898.2       141 -SKPMGTQTHTMIFDNAFNCTFEYISDAFSLDVSEKSGNFKHLREFVFKN    189
+                      :.....::...::.:|.||||||:|..|.:|:..|.||||:||||||||
+YP_009724390.    147 KNNKSWMESEFRVYSSANNCTFEYVSQPFLMDLEGKQGNFKNLREFVFKN    196
 
-EMBOSS_001       214 -------------NTL----KPIFKLPL-----GINITNFRAILTAFSPA    241
-                                  |||    :.:..:||     |:|:             
-EMBOSS_001      1423 YFYTSKTTVASLINTLNDLNETLVTMPLGYVTHGLNL-------------   1459
+ABB29898.2       190 KDGFLYVYKGYQPIDVVRDLPSGFNTLKPIFKLPLGINITNFRAIL----    235
+                     .||:..:|..:.||::|||||.||:.|:|:..||:|||||.|:.:|    
+YP_009724390.    197 IDGYFKIYSKHTPINLVRDLPQGFSALEPLVDLPIGINITRFQTLLALHR    246
 
-EMBOSS_001       242 QDIWGTSAAAYFVGYLKPTTFMLKYDE-----NGTITDAVDCSQNPLAE-    285
-                          ..||.|......|.|..:...:     ||.:|.:....:....| 
-EMBOSS_001      1460 -----EEAARYMRSLKVPATVSVSSPDAVTAYNGYLTSSSKTPEEHFIET   1504
+ABB29898.2       236 TAFSPAQDI--WGTSAAAYFVGYLKPTTFMLKYDENGTITDAVDCSQNPL    283
+                     :..:|....  |...||||:||||:|.||:|||:|||||||||||:.:||
+YP_009724390.    247 SYLTPGDSSSGWTAGAAAYYVGYLQPRTFLLKYNENGTITDAVDCALDPL    296
 
-EMBOSS_001       286 --LKCSVKSFEI---------------DKGIYQTSN---FRVVPSGDVVR    315
-                       |..|.|.:..               ||.:|.|||   |.:  .|:|:.
-EMBOSS_001      1505 ISLAGSYKDWSYSGQSTQLGIEFLKRGDKSVYYTSNPTTFHL--DGEVIT   1552
+ABB29898.2       284 AELKCSVKSFEIDKGIYQTSNFRVVPSGDVVRFPNITNLCPFGEVFNATK    333
+                     :|.||::|||.::|||||||||||.|:..:|||||||||||||||||||:
+YP_009724390.    297 SETKCTLKSFTVEKGIYQTSNFRVQPTESIVRFPNITNLCPFGEVFNATR    346
 
-EMBOSS_001       316 FPNITNLCPFGEVFNATKFPSVYAWERKKISNCVADYSVLYNSTFFSTFK    365
-                     |.|:..|....||.....|.:|   :...:...|.|.|:.|...|..|: 
-EMBOSS_001      1553 FDNLKTLLSLREVRTIKVFTTV---DNINLHTQVVDMSMTYGQQFGPTY-   1598
+ABB29898.2       334 FPSVYAWERKKISNCVADYSVLYNSTFFSTFKCYGVSATKLNDLCFSNVY    383
+                     |.|||||.||:||||||||||||||..||||||||||.||||||||:|||
+YP_009724390.    347 FASVYAWNRKRISNCVADYSVLYNSASFSTFKCYGVSPTKLNDLCFTNVY    396
 
-EMBOSS_001       366 CYGVSATKLNDLCFSNVYADSFVVKGDDVRQIAP-----GQTGVIADYNY    410
-                                            :.|.||.:|.|     |:|      .|
-EMBOSS_001      1599 -----------------------LDGADVTKIKPHNSHEGKT------FY   1619
+ABB29898.2       384 ADSFVVKGDDVRQIAPGQTGVIADYNYKLPDDFMGCVLAWNTRNIDATST    433
+                     |||||::||:||||||||||.||||||||||||.|||:|||:.|:|:...
+YP_009724390.    397 ADSFVIRGDEVRQIAPGQTGKIADYNYKLPDDFTGCVIAWNSNNLDSKVG    446
 
-EMBOSS_001       411 KLPDDFMGCVLAWNTRNIDA---------------TSTGNYNYKYRYLRH    445
-                     .||:|        :|..::|               .|..|:..|::|   
-EMBOSS_001      1620 VLPND--------DTLRVEAFEYYHTTDPSFLGRYMSALNHTKKWKY---   1658
+ABB29898.2       434 GNYNYKYRYLRHGKLRPFERDISNVPFSPDGKPCT-PPALNCYWPLNDYG    482
+                     |||||.||..|...|:|||||||...:.....||. ....|||:||..||
+YP_009724390.    447 GNYNYLYRLFRKSNLKPFERDISTEIYQAGSTPCNGVEGFNCYFPLQSYG    496
 
-EMBOSS_001       446 GKLRPFERDISNVPFSPDGKPCTPPALNCYWPLNDYGFYTTTGIGYQPYR    495
-                         |....::::.::.:         |||                    
-EMBOSS_001      1659 ----PQVNGLTSIKWADN---------NCY--------------------   1675
+ABB29898.2       483 FYTTTGIGYQPYRVVVLSFELLNAPATVCGPKLSTDLIKNQCVNFNFNGL    532
+                     |..|.|:|||||||||||||||:|||||||||.||:|:||:|||||||||
+YP_009724390.    497 FQPTNGVGYQPYRVVVLSFELLHAPATVCGPKKSTNLVKNKCVNFNFNGL    546
 
-EMBOSS_001       496 VVVLSFELLNAPATVCGPKLSTDLIKNQCVNFNFNGLTGTGVLTPSSKRF    545
-                                        |:|.|:..|.:...||         |.:.:.
-EMBOSS_001      1676 -------------------LATALLTLQQIELKFN---------PPALQD   1697
+ABB29898.2       533 TGTGVLTPSSKRFQPFQQFGRDVSDFTDSVRDPKTSEILDISPCSFGGVS    582
+                     |||||||.|:|:|.||||||||::|.||:||||:|.|||||:||||||||
+YP_009724390.    547 TGTGVLTESNKKFLPFQQFGRDIADTTDAVRDPQTLEILDITPCSFGGVS    596
 
-EMBOSS_001       546 QPFQQFGRDVSDFTDSVR---DPKTSEILDISPCSFGGVSVITPGTNASS    592
-                     ..::....:.::|...:.   :....|:.|:...    :|.:....|..|
-EMBOSS_001      1698 AYYRARAGEAANFCALILAYCNKTVGELGDVRET----MSYLFQHANLDS   1743
+ABB29898.2       583 VITPGTNASSEVAVLYQDVNCTDVSTAIHADQLTPAWRIYSTGNNVFQTQ    632
+                     |||||||.|::|||||||||||:|..|||||||||.||:||||:|||||:
+YP_009724390.    597 VITPGTNTSNQVAVLYQDVNCTEVPVAIHADQLTPTWRVYSTGSNVFQTR    646
 
-EMBOSS_001       593 EVAVL--------YQDVNCTDVSTAIHADQLTPAWRIYSTGNNVFQTQAG    634
-                     ...||        .|......|...::...|  ::..:..|     .|..
-EMBOSS_001      1744 CKRVLNVVCKTCGQQQTTLKGVEAVMYMGTL--SYEQFKKG-----VQIP   1786
+ABB29898.2       633 AGCLIGAEHVDTSYECDIPIGAGICASYHTVS----LLRSTSQKSIVAYT    678
+                     ||||||||||:.||||||||||||||||.|.:    ..||.:.:||:|||
+YP_009724390.    647 AGCLIGAEHVNNSYECDIPIGAGICASYQTQTNSPRRARSVASQSIIAYT    696
 
-EMBOSS_001       635 CLIGAEHVDTSY----------------ECDIPIGAGICASYHTVS----    664
-                     |..|.:  .|.|                :.::..|...|||.:|.:    
-EMBOSS_001      1787 CTCGKQ--ATKYLVQQESPFVMMSAPPAQYELKHGTFTCASEYTGNYQCG   1834
+ABB29898.2       679 MSLGADSSIAYSNNTIAIPTNFSISITTEVMPVSMAKTSVDCNMYICGDS    728
+                     |||||::|:|||||:|||||||:||:|||::||||.||||||.|||||||
+YP_009724390.    697 MSLGAENSVAYSNNSIAIPTNFTISVTTEILPVSMTKTSVDCTMYICGDS    746
 
-EMBOSS_001       665 -LLRSTSQKSIVAYTMSL--------GADSSIAYSNNTIAIPTNFSISIT    705
-                      ....||::::.....:|        |..:.:.|..|          |.|
-EMBOSS_001      1835 HYKHITSKETLYCIDGALLTKSSEYKGPITDVFYKEN----------SYT   1874
+ABB29898.2       729 TECANLLLQYGSFCTQLNRALSGIAAEQDRNTREVFAQVKQMYKTPTLKY    778
+                     |||:|||||||||||||||||:|||.|||:||:||||||||:||||.:|.
+YP_009724390.    747 TECSNLLLQYGSFCTQLNRALTGIAVEQDKNTQEVFAQVKQIYKTPPIKD    796
 
-EMBOSS_001       706 TEVMPVSMAKTSVDCNMYICGDSTECANLLLQYGSFCTQLNRALSGIAAE    755
-                     |.:.||:.   .:|                   |..||:::..|.....:
-EMBOSS_001      1875 TTIKPVTY---KLD-------------------GVVCTEIDPKLDNYYKK   1902
+ABB29898.2       779 FGGFNFSQILPDPLKPTKRSFIEDLLFNKVTLADAGFMKQYGECLGDINA    828
+                     |||||||||||||.||:||||||||||||||||||||:||||:|||||.|
+YP_009724390.    797 FGGFNFSQILPDPSKPSKRSFIEDLLFNKVTLADAGFIKQYGDCLGDIAA    846
 
-EMBOSS_001       756 QDRNTREVFAQVKQMYKTPTLKY----FGGFNFSQILPDPLKPTKRSFIE    801
-                     .:....|     :.:...|...|    |..|.|   :.|.:|     |.:
-EMBOSS_001      1903 DNSYFTE-----QPIDLVPNQPYPNASFDNFKF---VCDNIK-----FAD   1939
+ABB29898.2       829 RDLICAQKFNGLTVLPPLLTDDMIAAYTAALVSGTATAGWTFGAGAALQI    878
+                     |||||||||||||||||||||:|||.||:||::||.|:||||||||||||
+YP_009724390.    847 RDLICAQKFNGLTVLPPLLTDEMIAQYTSALLAGTITSGWTFGAGAALQI    896
 
-EMBOSS_001       802 DLLFNKVTLADAGFMKQYGECLGDINARDLICAQKFNGLTVLPPLLTDDM    851
-                     ||  |::|    |:.|.        .:|:|       .:|..|. |..|:
-EMBOSS_001      1940 DL--NQLT----GYKKP--------ASREL-------KVTFFPD-LNGDV   1967
+ABB29898.2       879 PFAMQMAYRFNGIGVTQNVLYENQKQIANQFNKAISQIQESLTTTSTALG    928
+                     |||||||||||||||||||||||||.||||||.||.:||:||::|::|||
+YP_009724390.    897 PFAMQMAYRFNGIGVTQNVLYENQKLIANQFNSAIGKIQDSLSSTASALG    946
 
-EMBOSS_001       852 IAA----YTAALVSGTATAGWTFGAGAALQIPFAMQMAYRFNGIGVTQNV    897
-                     :|.    ||.           :|..||.|                :.:.:
-EMBOSS_001      1968 VAIDYKHYTP-----------SFKKGAKL----------------LHKPI   1990
+ABB29898.2       929 KLQDVVNQNAQALNTLVKQLSSNFGAISSVLNDILSRLDKVEAEVQIDRL    978
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+YP_009724390.    947 KLQDVVNQNAQALNTLVKQLSSNFGAISSVLNDILSRLDKVEAEVQIDRL    996
 
-EMBOSS_001       898 LYENQKQIANQFNKAISQ-----IQESLTTTSTALGKLQDVV-NQNAQAL    941
-                     ::    .:.|..|||..:     |:...:|.........||: :::||.:
-EMBOSS_001      1991 VW----HVNNATNKATYKPNTWCIRCLWSTKPVETSNSFDVLKSEDAQGM   2036
+ABB29898.2       979 ITGRLQSLQTYVTQQLIRAAEIRASANLAATKMSECVLGQSKRVDFCGKG   1028
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+YP_009724390.    997 ITGRLQSLQTYVTQQLIRAAEIRASANLAATKMSECVLGQSKRVDFCGKG   1046
 
-EMBOSS_001       942 NTL----VKQLSSNFGAISSVLNDILSRLDKVEAEVQIDRLITGRLQSLQ    987
-                     :.|    :|.:|.......::..|:|....|. .||..|.::.....||:
-EMBOSS_001      2037 DNLACEDLKPVSEEVVENPTIQKDVLECNVKT-TEVVGDIILKPANNSLK   2085
+ABB29898.2      1029 YHLMSFPQAAPHGVVFLHVTYVPSQERNFTTAPAICHEGKAYFPREGVFV   1078
+                     ||||||||:||||||||||||||:||:||||||||||:|||:||||||||
+YP_009724390.   1047 YHLMSFPQSAPHGVVFLHVTYVPAQEKNFTTAPAICHDGKAHFPREGVFV   1096
 
-EMBOSS_001       988 TYVTQQL----IRAAEIRASANLAATKMSEC--VLGQSKRVDFCGKGYHL   1031
-                       :|:::    :.||.: .:::|...|.:|.  |||              
-EMBOSS_001      2086 --ITEEVGHTDLMAAYV-DNSSLTIKKPNELSRVLG--------------   2118
+ABB29898.2      1079 FNGTSWFITQRNFFSPQIITTDNTFVSGNCDVVIGIINNTVYDPLQPELD   1128
+                     .|||.||:|||||:.|||||||||||||||||||||:|||||||||||||
+YP_009724390.   1097 SNGTHWFVTQRNFYEPQIITTDNTFVSGNCDVVIGIVNNTVYDPLQPELD   1146
 
-EMBOSS_001      1032 MSFPQAAPHGVVFLHVTYVPSQERNFTTAPAICHEGKAYFPREGVFVFNG   1081
-                       ....|.||:.                                  ..|.
-EMBOSS_001      2119 --LKTLATHGLA----------------------------------AVNS   2132
+ABB29898.2      1129 SFKEELDKYFKNHTSPDVDLGDISGINASVVNIQKEIDRLNEVAKNLNES   1178
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+YP_009724390.   1147 SFKEELDKYFKNHTSPDVDLGDISGINASVVNIQKEIDRLNEVAKNLNES   1196
 
-EMBOSS_001      1082 TSWFITQRNFFSPQIITTDNTFVSGNCDVVIGIINN--TVYDP----LQP   1125
-                     ..| .|..|:..|.:    |..||...::|...:|.  |.|.|    |..
-EMBOSS_001      2133 VPW-DTIANYAKPFL----NKVVSTTTNIVTRCLNRVCTNYMPYFFTLLL   2177
+ABB29898.2      1179 LIDLQELGKYEQYIKWPWYVWLGFIAGLIAIVMVTILLCCMTSCCSCLKG   1228
+                     |||||||||||||||||||:||||||||||||||||:|||||||||||||
+YP_009724390.   1197 LIDLQELGKYEQYIKWPWYIWLGFIAGLIAIVMVTIMLCCMTSCCSCLKG   1246
 
-EMBOSS_001      1126 ELDSFKEELDKYFKNHTSPDVDLGDISGINASVVNIQKEIDRLNEVAKNL   1175
-                     :|.:|....:                |.|.||:.         ..:||| 
-EMBOSS_001      2178 QLCTFTRSTN----------------SRIKASMP---------TTIAKN-   2201
-
-EMBOSS_001      1176 NESLIDLQELGKY-----EQYIKWP----------WYVWL----------   1200
-                          .::.:||:     ..|:|.|          |::.|          
-EMBOSS_001      2202 -----TVKSVGKFCLEASFNYLKSPNFSKLINIIIWFLLLSVCLGSLIYS   2246
-
-EMBOSS_001      1201 ------------------GFIAGLIAIVMVTILLCCMTS--CCSCLKGAC   1230
-                                       |:..|.:....|||...|..|  |..||.|  
-EMBOSS_001      2247 TAALGVLMSNLGMPSYCTGYREGYLNSTNVTIATYCTGSIPCSVCLSG--   2294
-
-EMBOSS_001      1231 SCGSCCKFDEDDSEPVLKGVKL   1252
-                            .|..|:.|.|:.:::
-EMBOSS_001      2295 -------LDSLDTYPSLETIQI   2309
+ABB29898.2      1229 ACSCGSCCKFDEDDSEPVLKGVKLHYT   1255
+                     .||||||||||||||||||||||||||
+YP_009724390.   1247 CCSCGSCCKFDEDDSEPVLKGVKLHYT   1273
 
 
 #---------------------------------------
