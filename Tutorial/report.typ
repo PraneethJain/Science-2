@@ -15,7 +15,7 @@
 
 = Question 1
 == (i)
-SARS-CoV2 is similar to MERS-COV rather than SARS-CoV1. This can be observed
+SARS-CoV2 is similar to SARS-CoV1 rather than MERS-COV. This can be observed
 from the plots below.
 
 == (ii)
