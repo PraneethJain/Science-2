@@ -1,4 +1,5 @@
 #set text(font: "Roboto")
+#show link: set text(rgb(0, 0, 255))
 
 #set page(
   header: [Moida Praneeth Jain #h(1fr) 2022101093 #line(start: (-10%, 0%), end: (110%, 0%))], footer: [#line(start: (-10%, 0%), end: (110%, 0%))
@@ -119,7 +120,43 @@ should be considered. Thus, majorly on the basis of protein sequences, I have
 made the inference that MERS-COV and SARS-CoV2 are not homologs.
 
 = Question 3
+#link(
+  "https://www.uniprot.org/blast/uniprotkb/ncbiblast-R20240405-161928-0335-66713856-p1m/overview",
+)[DNA Results] and #link(
+  "https://www.uniprot.org/blast/uniprotkb/ncbiblast-R20240405-150554-0996-53724043-p1m/overview",
+)[Protein Results]
+
+== (i)
+The closest homolog of the query sequence is _Severe acute respiratory syndrome coronavirus 2 (2019-nCoV) (SARS-CoV)_
+
+== (ii)
+- Score: 5204
+- Percentage Identity: 76%
+- Percentage Similarity: 87%
+- E-Value: 0
+
+== (iii)
+Yes, SARS-CoV is one of the hits, and the percentage identity and percentage
+similarity results do match with the alignments obtained using `water`.
+
+The significance of this is that both Smith-Waterman and BLAST utilize local
+alignment algorithms, hence outputting almost the same values for similarities.
+
+== (iv)
+_Bat coronavirus HKU3 (BtCoV) (SARS-like coronavirus HKU3)_ Spike glycoprotein
+is also a homolog.
+- Score: 5081
+- Percentage Identity: 76%
+- Percentage Similarity: -
+- E-Value: 0
 
 = Question 4
+== Protein Database
+#let a = 571282
+#let b = 248234451
+- #a reviewed proteins and #b unreviewed proteins are present in UniProt.
+- Thus, the total size is #{ a + b } proteins in UniProt
+
+== Nucleotide Database
 
 = Question 5
