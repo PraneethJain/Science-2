@@ -133,6 +133,7 @@ The closest homolog of the query sequence is _Severe acute respiratory syndrome 
 - Score: 5204
 - Percentage Identity: 76%
 - Percentage Similarity: 87%
+- Length: 1255
 - E-Value: 0
 
 == (iii)
@@ -147,16 +148,51 @@ _Bat coronavirus HKU3 (BtCoV) (SARS-like coronavirus HKU3)_ Spike glycoprotein
 is also a homolog.
 - Score: 5081
 - Percentage Identity: 76%
-- Percentage Similarity: -
+- Percentage Similarity: NA
+- Length: 1242
 - E-Value: 0
 
 = Question 4
 == Protein Database
+#link("https://www.uniprot.org/")[Source]
 #let a = 571282
 #let b = 248234451
 - #a reviewed proteins and #b unreviewed proteins are present in UniProt.
 - Thus, the total size is #{ a + b } proteins in UniProt
 
 == Nucleotide Database
+#link("https://www.ncbi.nlm.nih.gov/genbank/release/current/")[Source]
+- 249060436 sequences, 2570711588044 bases
+
+== (i)
+
+== (ii)
 
 = Question 5
+
+```python
+import requests
+
+
+def find_protein_by_taxonomy_id(taxonomy_id: int) -> None:
+    url1 = f"https://rest.uniprot.org/uniprotkb/search?query=%28protein_name%3AInsulin%29+AND+%28taxonomy_id%3A{taxonomy_id}%29"
+
+    resp1 = requests.get(url1)
+    results = resp1.json()
+
+    print(f"Total number of protein entries: {resp1.headers.get('X-Total-Results')}")
+
+    accession_ids = [entry["primaryAccession"] for entry in results["results"]]
+    print("Accession IDs:", accession_ids)
+
+    first_id = accession_ids[0]
+    url2 = f"https://www.uniprot.org/uniprot/{first_id}.fasta"
+    resp2 = requests.get(url2)
+    with open(f"{first_id}.fasta", "wb") as fasta_file:
+        fasta_file.write(resp2.content)
+    print("Fasta downloaded!")
+
+
+if __name__ == "__main__":
+    find_protein_by_taxonomy_id(9606)
+```
