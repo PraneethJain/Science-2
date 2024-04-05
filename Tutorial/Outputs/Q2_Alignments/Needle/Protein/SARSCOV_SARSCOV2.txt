@@ -1,0 +1,641 @@
+########################################
+# Program: needle
+# Rundate: Fri  5 Apr 2024 12:08:20
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20240405-120816-0816-82173725-p1m.asequence
+#    -bsequence emboss_needle-I20240405-120816-0816-82173725-p1m.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: EMBOSS_001
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 7454
+# Identity:     256/7454 ( 3.4%)
+# Similarity:   458/7454 ( 6.1%)
+# Gaps:        6557/7454 (88.0%)
+# Score: 111.0
+# 
+#
+#=======================================
+
+EMBOSS_001         1 --------------------------------------------------      0
+                                                                       
+EMBOSS_001         1 MESLVPGFNEKTHVQLSLPVLQVRDVLVRGFGDSVEEVLSEARQHLKDGT     50
+
+EMBOSS_001         1 --------------------------------------------------      0
+                                                                       
+EMBOSS_001        51 CGLVEVEKGVLPQLEQPYVFIKRSDARTAPHGHVMVELVAELEGIQYGRS    100
+
+EMBOSS_001         1 --------------------------------------------------      0
+                                                                       
+EMBOSS_001       101 GETLGVLVPHVGEIPVAYRKVLLRKNGNKGAGGHSYGADLKSFDLGDELG    150
+
+EMBOSS_001         1 --------------------------------------------------      0
+                                                                       
+EMBOSS_001       151 TDPYEDFQENWNTKHSSGVTRELMRELNGGAYTRYVDNNFCGPDGYPLEC    200
+
+EMBOSS_001         1 --------------------------------------------------      0
+                                                                       
+EMBOSS_001       201 IKDLLARAGKASCTLSEQLDFIDTKRGVYCCREHEHEIAWYTERSEKSYE    250
+
+EMBOSS_001         1 --------------------------------------------------      0
+                                                                       
+EMBOSS_001       251 LQTPFEIKLAKKFDTFNGECPNFVFPLNSIIKTIQPRVEKKKLDGFMGRI    300
+
+EMBOSS_001         1 --------------------------------------------------      0
+                                                                       
+EMBOSS_001       301 RSVYPVASPNECNQMCLSTLMKCDHCGETSWQTGDFVKATCEFCGTENLT    350
+
+EMBOSS_001         1 --------------------------------------------------      0
+                                                                       
+EMBOSS_001       351 KEGATTCGYLPQNAVVKIYCPACHNSEVGPEHSLAEYHNESGLKTILRKG    400
+
+EMBOSS_001         1 --------------------------------------------------      0
+                                                                       
+EMBOSS_001       401 GRTIAFGGCVFSYVGCHNKCAYWVPRASANIGCNHTGVVGEGSEGLNDNL    450
+
+EMBOSS_001         1 --------------------------------------------------      0
+                                                                       
+EMBOSS_001       451 LEILQKEKVNINIVGDFKLNEEIAIILASFSASTSAFVETVKGLDYKAFK    500
+
+EMBOSS_001         1 --------------------------------------------------      0
+                                                                       
+EMBOSS_001       501 QIVESCGNFKVTKGKAKKGAWNIGEQKSILSPLYAFASEAARVVRSIFSR    550
+
+EMBOSS_001         1 --------------------------------------------------      0
+                                                                       
+EMBOSS_001       551 TLETAQNSVRVLQKAAITILDGISQYSLRLIDAMMFTSDLATNNLVVMAY    600
+
+EMBOSS_001         1 --------------------------------------------------      0
+                                                                       
+EMBOSS_001       601 ITGGVVQLTSQWLTNIFGTVYEKLKPVLDWLEEKFKEGVEFLRDGWEIVK    650
+
+EMBOSS_001         1 --------------------------------------------------      0
+                                                                       
+EMBOSS_001       651 FISTCACEIVGGQIVTCAKEIKESVQTFFKLVNKFLALCADSIIIGGAKL    700
+
+EMBOSS_001         1 --------------------------------------------------      0
+                                                                       
+EMBOSS_001       701 KALNLGETFVTHSKGLYRKCVKSREETGLLMPLKAPKEIIFLEGETLPTE    750
+
+EMBOSS_001         1 --------------------------------------------------      0
+                                                                       
+EMBOSS_001       751 VLTEEVVLKTGDLQPLEQPTSEAVEAPLVGTPVCINGLMLLEIKDTEKYC    800
+
+EMBOSS_001         1 --------------------------------------------------      0
+                                                                       
+EMBOSS_001       801 ALAPNMMVTNNTFTLKGGAPTKVTFGDDTVIEVQGYKSVNITFELDERID    850
+
+EMBOSS_001         1 --------------------------------------------------      0
+                                                                       
+EMBOSS_001       851 KVLNEKCSAYTVELGTEVNEFACVVADAVIKTLQPVSELLTPLGIDLDEW    900
+
+EMBOSS_001         1 --------------------------------------------------      0
+                                                                       
+EMBOSS_001       901 SMATYYLFDESGEFKLASHMYCSFYPPDEDEEEGDCEEEEFEPSTQYEYG    950
+
+EMBOSS_001         1 --------------------------------------------------      0
+                                                                       
+EMBOSS_001       951 TEDDYQGKPLEFGATSAALQPEEEQEEDWLDDDSQQTVGQQDGSEDNQTT   1000
+
+EMBOSS_001         1 --------------------------------------------------      0
+                                                                       
+EMBOSS_001      1001 TIQTIVEVQPQLEMELTPVVQTIEVNSFSGYLKLTDNVYIKNADIVEEAK   1050
+
+EMBOSS_001         1 --------------------------------------------------      0
+                                                                       
+EMBOSS_001      1051 KVKPTVVVNAANVYLKHGGGVAGALNKATNNAMQVESDDYIATNGPLKVG   1100
+
+EMBOSS_001         1 --------------------------------------------------      0
+                                                                       
+EMBOSS_001      1101 GSCVLSGHNLAKHCLHVVGPNVNKGEDIQLLKSAYENFNQHEVLLAPLLS   1150
+
+EMBOSS_001         1 -------------------------------MFIFLL--FLTLTSGSDLD     17
+                                                    ::..|:  ||.:.|...::
+EMBOSS_001      1151 AGIFGADPIHSLRVCVDTVRTNVYLAVFDKNLYDKLVSSFLEMKSEKQVE   1200
+
+EMBOSS_001        18 RCTT---FDDVQAPNYTQHTSSMRGVYYPDEIFRS----------DTLYL     54
+                     :...   .::|: |..|:...|:......|:..::          :|.:|
+EMBOSS_001      1201 QKIAEIPKEEVK-PFITESKPSVEQRKQDDKKIKACVEEVTTTLEETKFL   1249
+
+EMBOSS_001        55 TQDLFLPFYSNVTG-FHTINHTFGNPV-IPF--KDGIYFAATEKSNVVRG    100
+                     |::|.|  |.::.| .|..:.|..:.: |.|  ||..|            
+EMBOSS_001      1250 TENLLL--YIDINGNLHPDSATLVSDIDITFLKKDAPY------------   1285
+
+EMBOSS_001       101 WVFGSTMNNKSQSVIII-----NNSTNVVIRACNFELCDNPFFAVSKPMG    145
+                      :.|..:.....:.::|     ..:|.::.:|......|| :.......|
+EMBOSS_001      1286 -IVGDVVQEGVLTAVVIPTKKAGGTTEMLAKALRKVPTDN-YITTYPGQG   1333
+
+EMBOSS_001       146 TQTHTM---------------IFDNAFNCTFEYISDAFSLDVSEKSGNFK    180
+                     ...:|:               |..:..:...:.|....|.::.|...:.:
+EMBOSS_001      1334 LNGYTVEEAKTVLKKCKSAFYILPSIISNEKQEILGTVSWNLREMLAHAE   1383
+
+EMBOSS_001       181 HLREFV------------FKNKDGFLYVYKGYQPIDVVRDLPSGF-----    213
+                     ..|:.:            .:.|      |||.:..:.|.|..:.|     
+EMBOSS_001      1384 ETRKLMPVCVETKAIVSTIQRK------YKGIKIQEGVVDYGARFYFYTS   1427
+
+EMBOSS_001       214 --------NTL----KPIFKLPL-----GINITNFRAILTAFSPAQDIWG    246
+                             |||    :.:..:||     |:|:                  
+EMBOSS_001      1428 KTTVASLINTLNDLNETLVTMPLGYVTHGLNL------------------   1459
+
+EMBOSS_001       247 TSAAAYFVGYLKPTTFMLKYDE-----NGTITDAVDCSQNPLAE---LKC    288
+                     ..||.|......|.|..:...:     ||.:|.:....:....|   |..
+EMBOSS_001      1460 EEAARYMRSLKVPATVSVSSPDAVTAYNGYLTSSSKTPEEHFIETISLAG   1509
+
+EMBOSS_001       289 SVKSFEI---------------DKGIYQTSN---FRVVPSGDVVRFPNIT    320
+                     |.|.:..               ||.:|.|||   |.:  .|:|:.|.|:.
+EMBOSS_001      1510 SYKDWSYSGQSTQLGIEFLKRGDKSVYYTSNPTTFHL--DGEVITFDNLK   1557
+
+EMBOSS_001       321 NLCPFGEVFNATKFPSVYAWERKKISNCVADYSVLYNSTFFSTFKCYGVS    370
+                     .|....||.....|.:|   :...:...|.|.|:.|...|..|:      
+EMBOSS_001      1558 TLLSLREVRTIKVFTTV---DNINLHTQVVDMSMTYGQQFGPTY------   1598
+
+EMBOSS_001       371 ATKLNDLCFSNVYADSFVVKGDDVRQIAP-----GQTGVIADYNYKLPDD    415
+                                       :.|.||.:|.|     |:|      .|.||:|
+EMBOSS_001      1599 ------------------LDGADVTKIKPHNSHEGKT------FYVLPND   1624
+
+EMBOSS_001       416 FMGCVLAWNTRNIDA---------------TSTGNYNYKYRYLRHGKLRP    450
+                             :|..::|               .|..|:..|::|       |
+EMBOSS_001      1625 --------DTLRVEAFEYYHTTDPSFLGRYMSALNHTKKWKY-------P   1659
+
+EMBOSS_001       451 FERDISNVPFSPDGKPCTPPALNCYWPLNDYGFYTTTGIGYQPYRVVVLS    500
+                     ....::::.::.:         |||                         
+EMBOSS_001      1660 QVNGLTSIKWADN---------NCY-------------------------   1675
+
+EMBOSS_001       501 FELLNAPATVCGPKLSTDLIKNQCVNFNFNGLTGTGVLTPSSKRFQPFQQ    550
+                                   |:|.|:..|.:...||         |.:.:...::.
+EMBOSS_001      1676 --------------LATALLTLQQIELKFN---------PPALQDAYYRA   1702
+
+EMBOSS_001       551 FGRDVSDFTDSVR---DPKTSEILDISPCSFGGVSVITPGTNASSEVAVL    597
+                     ...:.::|...:.   :....|:.|:...    :|.:....|..|...||
+EMBOSS_001      1703 RAGEAANFCALILAYCNKTVGELGDVRET----MSYLFQHANLDSCKRVL   1748
+
+EMBOSS_001       598 --------YQDVNCTDVSTAIHADQLTPAWRIYSTGNNVFQTQAGCLIGA    639
+                             .|......|...::...|  ::..:..|     .|..|..|.
+EMBOSS_001      1749 NVVCKTCGQQQTTLKGVEAVMYMGTL--SYEQFKKG-----VQIPCTCGK   1791
+
+EMBOSS_001       640 EHVDTSY----------------ECDIPIGAGICASYHTVS-----LLRS    668
+                     :  .|.|                :.::..|...|||.:|.:     ....
+EMBOSS_001      1792 Q--ATKYLVQQESPFVMMSAPPAQYELKHGTFTCASEYTGNYQCGHYKHI   1839
+
+EMBOSS_001       669 TSQKSIVAYTMSL--------GADSSIAYSNNTIAIPTNFSISITTEVMP    710
+                     ||::::.....:|        |..:.:.|..|          |.||.:.|
+EMBOSS_001      1840 TSKETLYCIDGALLTKSSEYKGPITDVFYKEN----------SYTTTIKP   1879
+
+EMBOSS_001       711 VSMAKTSVDCNMYICGDSTECANLLLQYGSFCTQLNRALSGIAAEQDRNT    760
+                     |:.   .:|                   |..||:::..|.....:.:...
+EMBOSS_001      1880 VTY---KLD-------------------GVVCTEIDPKLDNYYKKDNSYF   1907
+
+EMBOSS_001       761 REVFAQVKQMYKTPTLKY----FGGFNFSQILPDPLKPTKRSFIEDLLFN    806
+                     .|     :.:...|...|    |..|.|   :.|.:|     |.:||  |
+EMBOSS_001      1908 TE-----QPIDLVPNQPYPNASFDNFKF---VCDNIK-----FADDL--N   1942
+
+EMBOSS_001       807 KVTLADAGFMKQYGECLGDINARDLICAQKFNGLTVLPPLLTDDMIAA--    854
+                     ::|    |:.|.        .:|:|       .:|..|. |..|::|.  
+EMBOSS_001      1943 QLT----GYKKP--------ASREL-------KVTFFPD-LNGDVVAIDY   1972
+
+EMBOSS_001       855 --YTAALVSGTATAGWTFGAGAALQIPFAMQMAYRFNGIGVTQNVLYENQ    902
+                       ||.           :|..||.|                :.:.:::   
+EMBOSS_001      1973 KHYTP-----------SFKKGAKL----------------LHKPIVW---   1992
+
+EMBOSS_001       903 KQIANQFNKAISQ-----IQESLTTTSTALGKLQDVV-NQNAQALNTL--    944
+                      .:.|..|||..:     |:...:|.........||: :::||.::.|  
+EMBOSS_001      1993 -HVNNATNKATYKPNTWCIRCLWSTKPVETSNSFDVLKSEDAQGMDNLAC   2041
+
+EMBOSS_001       945 --VKQLSSNFGAISSVLNDILSRLDKVEAEVQIDRLITGRLQSLQTYVTQ    992
+                       :|.:|.......::..|:|....|. .||..|.::.....||:  :|:
+EMBOSS_001      2042 EDLKPVSEEVVENPTIQKDVLECNVKT-TEVVGDIILKPANNSLK--ITE   2088
+
+EMBOSS_001       993 QL----IRAAEIRASANLAATKMSEC--VLGQSKRVDFCGKGYHLMSFPQ   1036
+                     ::    :.||.: .:::|...|.:|.  |||                ...
+EMBOSS_001      2089 EVGHTDLMAAYV-DNSSLTIKKPNELSRVLG----------------LKT   2121
+
+EMBOSS_001      1037 AAPHGVVFLHVTYVPSQERNFTTAPAICHEGKAYFPREGVFVFNGTSWFI   1086
+                     .|.||:.                                  ..|...| .
+EMBOSS_001      2122 LATHGLA----------------------------------AVNSVPW-D   2136
+
+EMBOSS_001      1087 TQRNFFSPQIITTDNTFVSGNCDVVIGIINN--TVYDP----LQPELDSF   1130
+                     |..|:..|.:    |..||...::|...:|.  |.|.|    |..:|.:|
+EMBOSS_001      2137 TIANYAKPFL----NKVVSTTTNIVTRCLNRVCTNYMPYFFTLLLQLCTF   2182
+
+EMBOSS_001      1131 KEELDKYFKNHTSPDVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLI   1180
+                     ....:                |.|.||:.         ..:|||      
+EMBOSS_001      2183 TRSTN----------------SRIKASMP---------TTIAKN------   2201
+
+EMBOSS_001      1181 DLQELGKY-----EQYIKWP----------WYVWL---------------   1200
+                     .::.:||:     ..|:|.|          |::.|               
+EMBOSS_001      2202 TVKSVGKFCLEASFNYLKSPNFSKLINIIIWFLLLSVCLGSLIYSTAALG   2251
+
+EMBOSS_001      1201 -------------GFIAGLIAIVMVTILLCCMTS--CCSCLKGACSCGSC   1235
+                                  |:..|.:....|||...|..|  |..||.|       
+EMBOSS_001      2252 VLMSNLGMPSYCTGYREGYLNSTNVTIATYCTGSIPCSVCLSG-------   2294
+
+EMBOSS_001      1236 CKFDEDDSEPVLKGVKLHYT------------------------------   1255
+                       .|..|:.|.|:.:::..:                              
+EMBOSS_001      2295 --LDSLDTYPSLETIQITISSFKWDLTAFGLVAEWFLAYILFTRFFYVLG   2342
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      2343 LAAIMQLFFSYFAVHFISNSWLMWLIINLVQMAPISAMVRMYIFFASFYY   2392
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      2393 VWKSYVHVVDGCNSSTCMMCYKRNRATRVECTTIVNGVRRSFYVYANGGK   2442
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      2443 GFCKLHNWNCVNCDTFCAGSTFISDEVARDLSLQFKRPINPTDQSSYIVD   2492
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      2493 SVTVKNGSIHLYFDKAGQKTYERHSLSHFVNLDNLRANNTKGSLPINVIV   2542
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      2543 FDGKSKCEESSAKSASVYYSQLMCQPILLLDQALVSDVGDSAEVAVKMFD   2592
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      2593 AYVNTFSSTFNVPMEKLKTLVATAEAELAKNVSLDNVLSTFISAARQGFV   2642
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      2643 DSDVETKDVVECLKLSHQSDIEVTGDSCNNYMLTYNKVENMTPRDLGACI   2692
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      2693 DCSARHINAQVAKSHNIALIWNVKDFMSLSEQLRKQIRSAAKKNNLPFKL   2742
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      2743 TCATTRQVVNVVTTKIALKGGKIVNNWLKQLIKVTLVFLFVAAIFYLITP   2792
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      2793 VHVMSKHTDFSSEIIGYKAIDGGVTRDIASTDTCFANKHADFDTWFSQRG   2842
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      2843 GSYTNDKACPLIAAVITREVGFVVPGLPGTILRTTNGDFLHFLPRVFSAV   2892
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      2893 GNICYTPSKLIEYTDFATSACVLAAECTIFKDASGKPVPYCYDTNVLEGS   2942
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      2943 VAYESLRPDTRYVLMDGSIIQFPNTYLEGSVRVVTTFDSEYCRHGTCERS   2992
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      2993 EAGVCVSTSGRWVLNNDYYRSLPGVFCGVDAVNLLTNMFTPLIQPIGALD   3042
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      3043 ISASIVAGGIVAIVVTCLAYYFMRFRRAFGEYSHVVAFNTLLFLMSFTVL   3092
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      3093 CLTPVYSFLPGVYSVIYLYLTFYLTNDVSFLAHIQWMVMFTPLVPFWITI   3142
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      3143 AYIICISTKHFYWFFSNYLKRRVVFNGVSFSTFEEAALCTFLLNKEMYLK   3192
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      3193 LRSDVLLPLTQYNRYLALYNKYKYFSGAMDTTSYREAACCHLAKALNDFS   3242
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      3243 NSGSDVLYQPPQTSITSAVLQSGFRKMAFPSGKVEGCMVQVTCGTTTLNG   3292
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      3293 LWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIG   3342
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      3343 HSMQNCVLKLKVDTANPKTPKYKFVRIQPGQTFSVLACYNGSPSGVYQCA   3392
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      3393 MRPNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEG   3442
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      3443 NFYGPFVDRQTAQAAGTDTTITVNVLAWLYAAVINGDRWFLNRFTTTLND   3492
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      3493 FNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGR   3542
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      3543 TILGSALLEDEFTPFDVVRQCSGVTFQSAVKRTIKGTHHWLLLTILTSLL   3592
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      3593 VLVQSTQWSLFFFLYENAFLPFAMGIIAMSAFAMMFVKHKHAFLCLFLLP   3642
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      3643 SLATVAYFNMVYMPASWVMRIMTWLDMVDTSLSGFKLKDCVMYASAVVLL   3692
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      3693 ILMTARTVYDDGARRVWTLMNVLTLVYKVYYGNALDQAISMWALIISVTS   3742
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      3743 NYSGVVTTVMFLARGIVFMCVEYCPIFFITGNTLQCIMLVYCFLGYFCTC   3792
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      3793 YFGLFCLLNRYFRLTLGVYDYLVSTQEFRYMNSQGLLPPKNSIDAFKLNI   3842
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      3843 KLLGVGGKPCIKVATVQSKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCV   3892
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      3893 QLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ   3942
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      3943 AIASEFSSLPSYAAFATAQEAYEQAVANGDSEVVLKKLKKSLNVAKSEFD   3992
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      3993 RDAAMQRKLEKMADQAMTQMYKQARSEDKRAKVTSAMQTMLFTMLRKLDN   4042
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      4043 DALNNIINNARDGCVPLNIIPLTTAAKLMVVIPDYNTYKNTCDGTTFTYA   4092
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      4093 SALWEIQQVVDADSKIVQLSEISMDNSPNLAWPLIVTALRANSAVKLQNN   4142
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      4143 ELSPVALRQMSCAAGTTQTACTDDNALAYYNTTKGGRFVLALLSDLQDLK   4192
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      4193 WARFPKSDGTGTIYTELEPPCRFVTDTPKGPKVKYLYFIKGLNNLNRGMV   4242
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      4243 LGSLAATVRLQAGNATEVPANSTVLSFCAFAVDAAKAYKDYLASGGQPIT   4292
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      4293 NCVKMLCTHTGTGQAITVTPEANMDQESFGGASCCLYCRCHIDHPNPKGF   4342
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      4343 CDLKGKYVQIPTTCANDPVGFTLKNTVCTVCGMWKGYGCSCDQLREPMLQ   4392
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      4393 SADAQSFLNRVCGVSAARLTPCGTGTSTDVVYRAFDIYNDKVAGFAKFLK   4442
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      4443 TNCCRFQEKDEDDNLIDSYFVVKRHTFSNYQHEETIYNLLKDCPAVAKHD   4492
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      4493 FFKFRIDGDMVPHISRQRLTKYTMADLVYALRHFDEGNCDTLKEILVTYN   4542
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      4543 CCDDDYFNKKDWYDFVENPDILRVYANLGERVRQALLKTVQFCDAMRNAG   4592
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      4593 IVGVLTLDNQDLNGNWYDFGDFIQTTPGSGVPVVDSYYSLLMPILTLTRA   4642
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      4643 LTAESHVDTDLTKPYIKWDLLKYDFTEERLKLFDRYFKYWDQTYHPNCVN   4692
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      4693 CLDDRCILHCANFNVLFSTVFPPTSFGPLVRKIFVDGVPFVVSTGYHFRE   4742
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      4743 LGVVHNQDVNLHSSRLSFKELLVYAADPAMHAASGNLLLDKRTTCFSVAA   4792
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      4793 LTNNVAFQTVKPGNFNKDFYDFAVSKGFFKEGSSVELKHFFFAQDGNAAI   4842
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      4843 SDYDYYRYNLPTMCDIRQLLFVVEVVDKYFDCYDGGCINANQVIVNNLDK   4892
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      4893 SAGFPFNKWGKARLYYDSMSYEDQDALFAYTKRNVIPTITQMNLKYAISA   4942
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      4943 KNRARTVAGVSICSTMTNRQFHQKLLKSIAATRGATVVIGTSKFYGGWHN   4992
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      4993 MLKTVYSDVENPHLMGWDYPKCDRAMPNMLRIMASLVLARKHTTCCSLSH   5042
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      5043 RFYRLANECAQVLSEMVMCGGSLYVKPGGTSSGDATTAYANSVFNICQAV   5092
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      5093 TANVNALLSTDGNKIADKYVRNLQHRLYECLYRNRDVDTDFVNEFYAYLR   5142
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      5143 KHFSMMILSDDAVVCFNSTYASQGLVASIKNFKSVLYYQNNVFMSEAKCW   5192
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      5193 TETDLTKGPHEFCSQHTMLVKQGDDYVYLPYPDPSRILGAGCFVDDIVKT   5242
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      5243 DGTLMIERFVSLAIDAYPLTKHPNQEYADVFHLYLQYIRKLHDELTGHML   5292
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      5293 DMYSVMLTNDNTSRYWEPEFYEAMYTPHTVLQAVGACVLCNSQTSLRCGA   5342
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      5343 CIRRPFLCCKCCYDHVISTSHKLVLSVNPYVCNAPGCDVTDVTQLYLGGM   5392
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      5393 SYYCKSHKPPISFPLCANGQVFGLYKNTCVGSDNVTDFNAIATCDWTNAG   5442
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      5443 DYILANTCTERLKLFAAETLKATEETFKLSYGIATVREVLSDRELHLSWE   5492
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      5493 VGKPRPPLNRNYVFTGYRVTKNSKVQIGEYTFEKGDYGDAVVYRGTTTYK   5542
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      5543 LNVGDYFVLTSHTVMPLSAPTLVPQEHYVRITGLYPTLNISDEFSSNVAN   5592
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      5593 YQKVGMQKYSTLQGPPGTGKSHFAIGLALYYPSARIVYTACSHAAVDALC   5642
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      5643 EKALKYLPIDKCSRIIPARARVECFDKFKVNSTLEQYVFCTVNALPETTA   5692
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      5693 DIVVFDEISMATNYDLSVVNARLRAKHYVYIGDPAQLPAPRTLLTKGTLE   5742
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      5743 PEYFNSVCRLMKTIGPDMFLGTCRRCPAEIVDTVSALVYDNKLKAHKDKS   5792
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      5793 AQCFKMFYKGVITHDVSSAINRPQIGVVREFLTRNPAWRKAVFISPYNSQ   5842
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      5843 NAVASKILGLPTQTVDSSQGSEYDYVIFTQTTETAHSCNVNRFNVAITRA   5892
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      5893 KVGILCIMSDRDLYDKLQFTSLEIPRRNVATLQAENVTGLFKDCSKVITG   5942
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      5943 LHPTQAPTHLSVDTKFKTEGLCVDIPGIPKDMTYRRLISMMGFKMNYQVN   5992
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      5993 GYPNMFITREEAIRHVRAWIGFDVEGCHATREAVGTNLPLQLGFSTGVNL   6042
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      6043 VAVPTGYVDTPNNTDFSRVSAKPPPGDQFKHLIPLMYKGLPWNVVRIKIV   6092
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      6093 QMLSDTLKNLSDRVVFVLWAHGFELTSMKYFVKIGPERTCCLCDRRATCF   6142
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      6143 STASDTYACWHHSIGFDYVYNPFMIDVQQWGFTGNLQSNHDLYCQVHGNA   6192
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      6193 HVASCDAIMTRCLAVHECFVKRVDWTIEYPIIGDELKINAACRKVQHMVV   6242
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      6243 KAALLADKFPVLHDIGNPKAIKCVPQADVEWKFYDAQPCSDKAYKIEELF   6292
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      6293 YSYATHSDKFTDGVCLFWNCNVDRYPANSIVCRFDTRVLSNLNLPGCDGG   6342
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      6343 SLYVNKHAFHTPAFDKSAFVNLKQLPFFYYSDSPCESHGKQVVSDIDYVP   6392
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      6393 LKSATCITRCNLGGAVCRHHANEYRLYLDAYNMMISAGFSLWVYKQFDTY   6442
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      6443 NLWNTFTRLQSLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDV   6492
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      6493 ELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKR   6542
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      6543 DAPAHISTIGVCSMTDIAKKPTETICAPLTVFFDGRVDGQVDLFRNARNG   6592
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      6593 VLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLP   6642
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      6643 ETYFTQSRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDF   6692
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      6693 SHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKC   6742
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      6743 VCSVIDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVET   6792
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      6793 FYPKLQSSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNV   6842
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      6843 AKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLPTGTL   6892
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      6893 LVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKEND   6942
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      6943 SKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADLYKLMGHFAWWTAFV   6992
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      6993 TNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSL   7042
+
+EMBOSS_001      1256 --------------------------------------------------   1255
+                                                                       
+EMBOSS_001      7043 FDMSKFPLKLRGTAVMSLKEGQINDMILSLLSKGRLIIRENNRVVISSDV   7092
+
+EMBOSS_001      1256 ----   1255
+                         
+EMBOSS_001      7093 LVNN   7096
+
+
+#---------------------------------------
+#---------------------------------------
