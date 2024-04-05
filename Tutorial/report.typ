@@ -154,19 +154,39 @@ is also a homolog.
 
 = Question 4
 == Protein Database
-#link("https://www.uniprot.org/")[Source]
+#link("https://www.uniprot.org/uniprotkb/statistics")[Source]
 #let a = 571282
 #let b = 248234451
 - #a reviewed proteins and #b unreviewed proteins are present in UniProt.
 - Thus, the total size is #{ a + b } proteins in UniProt
+- 87,574,368,369 amino acids
 
 == Nucleotide Database
 #link("https://www.ncbi.nlm.nih.gov/genbank/release/current/")[Source]
 - 249060436 sequences, 2570711588044 bases
 
 == (i)
+For search in protein database, we multiply the number of amino acids in the
+database with the number of amino acids in the query sequence.
+$ 87574368369 * 1000/3 = 29191456123000 $
+
+For search in nucleotide database, we multiply the number of nucleotides in the
+database with the number of nucleotides in the query sequence.
+$ 249060436 * 1000 = 249060436000 $
+
+Assuming $10^7$ cells are computed per second, the time required is $33.78$ days
+and $6.91$ hours respectively.
 
 == (ii)
+For Human Chr 1 and a query sequence of 1000 bases, the number of matrix cells
+required is
+$ 2.49 * 10^8 * 10^3 = 2.49 * 10^11 $
+
+For Human Chr 1 and Mouse Chr 1, the number of matrix cells required is
+$ 2.49 * 10^8 * 1.95 * 10^8 = 4.8555 * 10^16 $
+
+Therefore, assuming the memory required for each cell is 1 unit, the memory
+required for these matrices respectively is $2.49 * 10^11$ units and $4.8555 * 10^16$ units.
 
 = Question 5
 
