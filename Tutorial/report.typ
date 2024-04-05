@@ -97,7 +97,26 @@ global and local alignments are the same.
 - Matrix: BLOSUM62
 - Gap Open: 10
 - Gap Extend: 0.5
-= TO DO HOW TO SUBMIT ALIGNMENT
+
+#grid(
+  columns: 2, gutter: 2mm, figure(
+    image("./Outputs/Q2_Alignments/Needle/DNA/SARSCOV_SARSCOV2.png"), caption: "Needle SARSCoV-SARSCoV2 DNA",
+  ), figure(
+    image("./Outputs/Q2_Alignments/Water/DNA/SARSCOV_SARSCOV2.png"), caption: "Water SARSCoV-SARSCoV2 DNA",
+  ), figure(
+    image("./Outputs/Q2_Alignments/Needle/DNA/MERSCOV_SARSCOV2.png"), caption: "Needle MERSCoV-SARSCoV2 DNA",
+  ), figure(
+    image("./Outputs/Q2_Alignments/Water/DNA/MERSCOV_SARSCOV2.png"), caption: "Water MERSCoV-SARSCoV2 DNA",
+  ), figure(
+    image("./Outputs/Q2_Alignments/Needle/Protein/SARSCOV_SARSCOV2.png"), caption: "Needle SARSCoV-SARSCoV2 Protein",
+  ), figure(
+    image("./Outputs/Q2_Alignments/Water/Protein/SARSCOV_SARSCOV2.png"), caption: "Water SARSCoV-SARSCoV2 Protein",
+  ), figure(
+    image("./Outputs/Q2_Alignments/Needle/Protein/MERSCOV_SARSCOV2.png"), caption: "Needle MERSCoV-SARSCoV2 Protein",
+  ), figure(
+    image("./Outputs/Q2_Alignments/Water/Protein/MERSCOV_SARSCOV2.png"), caption: "Water MERSCoV-SARSCoV2 Protein",
+  ),
+)
 
 == (b) MERS-COV vs SARS-CoV2
 ==== Needle:
