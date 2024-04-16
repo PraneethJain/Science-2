@@ -1,0 +1,39 @@
+
+   6 Populations
+
+Neighbor-Joining/UPGMA method version 3.697
+
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+    +YP_0097243
+  +-3 
+  ! !  +ABB29898.2
+  ! +--2 
+  !    !               +-----------------------AXP07355.1
+  !    +---------------1 
+  !                    +----------------------------------WJJ08868.1
+  ! 
+  4--QOR63517.1
+  ! 
+  +QHR63300.2
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             3            0.02183
+   3          YP_0097243     -0.01036
+   3             2            0.16221
+   2          ABB29898.2      0.06651
+   2             1            0.81481
+   1          AXP07355.1      1.19389
+   1          WJJ08868.1      1.75390
+   4          QOR63517.1      0.17353
+   4          QHR63300.2     -0.00624
+
+
