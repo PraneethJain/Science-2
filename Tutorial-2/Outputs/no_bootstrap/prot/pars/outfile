@@ -1,0 +1,27 @@
+
+Protein parsimony algorithm, version 3.697
+
+
+
+One most parsimonious tree found:
+
+
+
+
+              +--WJJ08868.1
+        +-----5  
+        !     +--AXP07355.1
+     +--4  
+     !  !     +--ABB29898.2
+  +--2  +-----3  
+  !  !        +--QOR63517.1
+  1  !  
+  !  +-----------YP_0097243
+  !  
+  +--------------QHR63300.2
+
+  remember: this is an unrooted tree!
+
+
+requires a total of   7055.000
+
