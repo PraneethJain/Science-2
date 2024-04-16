@@ -14,60 +14,60 @@
 << /PageSize [ 585 765 ] >> setpagedevice 1 setlinecap 
  1 setlinejoin
     5.18 setlinewidth newpath
-   46.80   197.98    58.76   197.98 l
-   58.76   197.98    58.76   561.32 l
-   58.76   561.32    83.60   561.32 l
-   83.60   561.32    83.60   598.38 l
-   83.60   598.38    97.77   598.38 l
-   83.60   561.32    83.60   474.23 l
-   83.60   474.23   150.45   474.23 l
-  150.45   474.23   150.45   512.03 l
-  150.45   512.03   235.62   512.03 l
-  150.45   474.23   150.45   425.68 l
-  150.45   425.68   286.00   425.68 l
-   58.76   197.98    58.76   324.18 l
-   58.76   324.18    67.34   324.18 l
-   67.34   324.18    67.34   339.32 l
-   67.34   339.32    67.34   339.32 l
-   67.34   324.18    67.34   252.97 l
-   67.34   252.97    99.09   252.97 l
-   58.76   197.98    58.76   166.62 l
-   58.76   166.62    60.90   166.62 l
+   46.80   166.62    58.76   166.62 l
+   58.76   166.62    58.76   579.88 l
+   58.76   579.88    70.26   579.88 l
+   70.26   579.88    70.26   598.38 l
+   70.26   598.38    70.26   598.38 l
+   70.26   579.88    70.26   512.03 l
+   70.26   512.03   100.94   512.03 l
+   58.76   166.62    58.76   379.31 l
+   58.76   379.31    93.19   379.31 l
+   93.19   379.31    93.19   425.68 l
+   93.19   425.68   113.91   425.68 l
+   93.19   379.31    93.19   298.08 l
+   93.19   298.08   155.39   298.08 l
+  155.39   298.08   155.39   339.32 l
+  155.39   339.32   266.59   339.32 l
+  155.39   298.08   155.39   252.97 l
+  155.39   252.97   286.00   252.97 l
+   58.76   166.62    58.76   166.62 l
+   58.76   166.62    58.76   166.62 l
  stroke    1.73 setlinewidth 
 1 setlinecap 1 setlinejoin 
 gsave
 /Times-Roman findfont 43.479473 scalefont setfont
-110.858843 587.767896 translate -0.000000 rotate
-0 0 moveto
-(DQ231462.2) show
-grestore
-gsave
-/Times-Roman findfont 43.479473 scalefont setfont
-245.076207 500.482448 translate -0.000000 rotate
-0 0 moveto
-(MH734115.1) show
-grestore
-gsave
-/Times-Roman findfont 43.479473 scalefont setfont
-299.084641 415.067431 translate -0.000000 rotate
-0 0 moveto
-(OR147948.1) show
-grestore
-gsave
-/Times-Roman findfont 43.479473 scalefont setfont
-80.424449 328.717198 translate -0.000000 rotate
+83.345694 587.767896 translate -0.000000 rotate
 0 0 moveto
 (NC 045512.) show
 grestore
 gsave
 /Times-Roman findfont 43.479473 scalefont setfont
-108.542076 241.431751 translate -0.000000 rotate
+110.401430 500.482448 translate -0.000000 rotate
 0 0 moveto
 (MW173324.1) show
 grestore
 gsave
 /Times-Roman findfont 43.479473 scalefont setfont
-70.359856 155.081518 translate -0.000000 rotate
+126.999586 415.067431 translate -0.000000 rotate
+0 0 moveto
+(DQ231462.2) show
+grestore
+gsave
+/Times-Roman findfont 43.479473 scalefont setfont
+276.050690 327.781983 translate -0.000000 rotate
+0 0 moveto
+(MH734115.1) show
+grestore
+gsave
+/Times-Roman findfont 43.479473 scalefont setfont
+299.084641 242.366966 translate -0.000000 rotate
+0 0 moveto
+(OR147948.1) show
+grestore
+gsave
+/Times-Roman findfont 43.479473 scalefont setfont
+68.216651 155.081518 translate -0.000000 rotate
 0 0 moveto
 (MN996532.2) show
 grestore

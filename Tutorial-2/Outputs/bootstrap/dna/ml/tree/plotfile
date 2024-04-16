@@ -13,55 +13,55 @@
 %%Page: 1 1
 << /PageSize [ 585 765 ] >> setpagedevice 1 setlinecap 
  1 setlinejoin
-    2.19 setlinewidth newpath
-  279.51   246.30   275.24   238.90 l
-  279.51   246.30   279.51   264.34 l
-  279.51   264.34   259.75   261.36 l
-  279.51   264.34   297.89   275.97 l
-  297.89   275.97   310.95   379.14 l
-  310.95   379.14   145.56   530.94 l
-  310.95   379.14   434.70   446.06 l
-  297.89   275.97   330.94   257.71 l
-  279.51   246.30   284.62   237.45 l
- stroke    0.73 setlinewidth 
+    2.15 setlinewidth newpath
+  355.34   284.71   348.59   280.82 l
+  348.59   280.82   350.53   240.69 l
+  348.59   280.82   345.72   279.59 l
+  355.34   284.71   376.41   321.21 l
+  376.41   321.21   347.29   418.35 l
+  347.29   418.35   145.91   493.58 l
+  347.29   418.35   439.61   527.13 l
+  376.41   321.21   408.85   311.02 l
+  355.34   284.71   359.62   277.31 l
+ stroke    0.72 setlinewidth 
 1 setlinecap 1 setlinejoin 
 gsave
-/Times-Roman findfont 18.386042 scalefont setfont
-230.296103 220.640801 translate 0.000000 rotate
-0 0 moveto
-(NC 045512.) show
-grestore
-gsave
-/Times-Roman findfont 18.386042 scalefont setfont
-151.017641 246.621252 translate 0.000000 rotate
+/Times-Roman findfont 18.006821 scalefont setfont
+300.261926 222.807582 translate 0.000000 rotate
 0 0 moveto
 (MW173324.1) show
 grestore
 gsave
-/Times-Roman findfont 18.386042 scalefont setfont
-98.316688 537.028838 translate 0.000000 rotate
+/Times-Roman findfont 18.006821 scalefont setfont
+301.701063 261.706373 translate 0.000000 rotate
+0 0 moveto
+(NC 045512.) show
+grestore
+gsave
+/Times-Roman findfont 18.006821 scalefont setfont
+99.638764 499.538807 translate 0.000000 rotate
 0 0 moveto
 (OR147948.1) show
 grestore
 gsave
-/Times-Roman findfont 18.386042 scalefont setfont
-385.420983 452.142022 translate 0.000000 rotate
+/Times-Roman findfont 18.006821 scalefont setfont
+391.344296 533.090144 translate 0.000000 rotate
 0 0 moveto
 (MH734115.1) show
 grestore
 gsave
-/Times-Roman findfont 18.386042 scalefont setfont
-283.196136 239.454034 translate 0.000000 rotate
+/Times-Roman findfont 18.006821 scalefont setfont
+362.089658 293.141520 translate 0.000000 rotate
 0 0 moveto
 (DQ231462.2) show
 grestore
 gsave
-/Times-Roman findfont 18.386042 scalefont setfont
-235.333071 219.195722 translate 0.000000 rotate
+/Times-Roman findfont 18.006821 scalefont setfont
+311.350229 259.427441 translate 0.000000 rotate
 0 0 moveto
 (MN996532.2) show
 grestore
-stroke     2.19 setlinewidth 
+stroke     2.15 setlinewidth 
  1 setlinecap 1 setlinejoin 
 stroke showpage 
 

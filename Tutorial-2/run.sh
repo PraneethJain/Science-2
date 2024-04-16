@@ -33,6 +33,9 @@ for item in "${items[@]}"; do
       (echo ./"../../../../${exe_path}" && echo "Y") | ./"../../../../${exe_path}/draw${plot}"
       mkdir "${plot}"
       mv plotfile "${plot}"
+      cd "${plot}"
+      gs -dSAFER -dBATCH -dNOPAUSE -sDEVICE=pngalpha -r100 -sOutputFile=plot.png plotfile
+      cd ..
     done
     cd ..
   done
@@ -50,6 +53,9 @@ for item in "${items[@]}"; do
       (echo ./"../../../../${exe_path}" && echo "Y") | ./"../../../../${exe_path}/draw${plot}"
       mkdir "${plot}"
       mv plotfile "${plot}"
+      cd "${plot}"
+      gs -dSAFER -dBATCH -dNOPAUSE -sDEVICE=pngalpha -r100 -sOutputFile=plot.png plotfile
+      cd ..
     done
     cd ..
   done
@@ -64,7 +70,7 @@ for item in "${items[@]}"; do
   echo -n "enter ${item} input path: "
   cp "../../${item}" "${item}/infile"
   cd "${item}"
-  ./"../../../${exe_path}/seqboot" <<< "Y"
+  (echo "Y" && echo "69") | ./"../../../${exe_path}/seqboot"
   mv outfile infile
   for a in "${A[@]}"; do
     echo "Y" | ./"../../../${exe_path}/${item}${a}"
@@ -78,6 +84,9 @@ for item in "${items[@]}"; do
       (echo ./"../../../../${exe_path}" && echo "Y") | ./"../../../../${exe_path}/draw${plot}"
       mkdir "${plot}"
       mv plotfile "${plot}"
+      cd "${plot}"
+      gs -dSAFER -dBATCH -dNOPAUSE -sDEVICE=pngalpha -r100 -sOutputFile=plot.png plotfile
+      cd ..
     done
     cd ..
   done
@@ -95,6 +104,9 @@ for item in "${items[@]}"; do
       (echo ./"../../../../${exe_path}" && echo "Y") | ./"../../../../${exe_path}/draw${plot}"
       mkdir "${plot}"
       mv plotfile "${plot}"
+      cd "${plot}"
+      gs -dSAFER -dBATCH -dNOPAUSE -sDEVICE=pngalpha -r100 -sOutputFile=plot.png plotfile
+      cd ..
     done
     cd ..
   done
