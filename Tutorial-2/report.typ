@@ -35,8 +35,9 @@ The closest relatives are:
 - SARS-CoV2 with P-CoV (84.62%)
 ==
 The possible source of origin could be deduced with the sequence having the
-highest level of percentage identity. Thus, we the possible source of origin of
-SARS-CoV2 and MERSCoV is RATG13.
+highest level of percentage identity.
+- Possible source of origin for SARS-CoV2 is RATG13
+- Possible source of origin for MERSCoV is P-CoV
 
 =
 #grid(
@@ -91,5 +92,20 @@ SARS-CoV2 and MERSCoV is RATG13.
   ),
 )
 ==
-==
+The trees obtained by different methods are mostly in agreement topology wise.
+We can come to this conclusion by observing that the relative depth between the
+sequences are almost always the same in case of all the trees.
 
+==
+- Yes, there are slight differences with and without bootstrapping. In some cases,
+  the depth is not as high in the boostrapped version. This means that
+  bootstrapping avoids alignments by chance.
+- Bootstrapping allows for the tree depth constructed to be more robust. It allows
+  for the samples to better represent the variations in the group. The information
+  it provides is that it allows us to infer the confidence of the depth of the
+  sequences.
+==
+Yes, the inferences made in the previous question are in agreement with the
+trees generated. SARS-CoV2 and RATG13 are having close origin on the tree, and
+MERSCOV and P-CoV are also having close origin on the tree. This supports our
+previous findings.
