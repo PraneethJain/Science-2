@@ -21,11 +21,22 @@ _DNA Identity Matrix_
   columns: (1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr), inset: 5pt, align: center, [], [*Bat CoV*], [*Bat CoV RATG13*], [*MERS CoV*], [*P-CoV*], [*SARS-CoV2*], [*SARS-CoV*], [*Bat CoV*], [-], [25.51], [23.29], [41.77], [24.56], [25.45], [*Bat CoV RATG13*], [25.51], [-], [30.44], [75.94], [92.68], [67.57], [*MERSCoV*], [23.39], [30.44], [-], [48.10], [29.46], [30.84], [*P-CoV*], [41.77], [75.94], [48.10], [-], [82.28], [62.02], [*SARS-CoV2*], [24.56], [92.68], [29.46], [82.28], [-], [65.37], [*SARS-CoV*], [25.45], [67.57], [30.84], [62.02], [65.37], [-],
 )
 
+The closest relatives are:
+- SARS-CoV2 with RATG13 (92.68%)
+- SARS-CoV2 with P-CoV (82.28%)
+
 _Protein Identity Matrix_
 #table(
   columns: (1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr), inset: 5pt, align: center, [ ], [*Bat CoV*], [*Bat CoV RATG13*], [*MERS CoV*], [*P-CoV*], [*SARS-CoV*], [*SARS-CoV2*], [*Bat CoV*], [-], [18.44], [18.55], [30.77], [18.56], [18.22], [*Bat CoV RATG13*], [18.44], [-], [23.40], [84.61], [74.58], [97.47], [*MERSCoV*], [18.55], [23.40], [-], [23.08], [26.06], [26.47], [*P-CoV*], [30.77], [84.61], [23.08], [-], [73.08], [84.62], [*SARS-CoV*], [18.56], [74.58], [26.06], [73.08], [-], [73.94], [*SARS-CoV2*], [18.22], [97.47], [26.47], [84.62], [73.94], [-],
 )
+
+The closest relatives are:
+- SARS-CoV2 with RATG13 (97.47%)
+- SARS-CoV2 with P-CoV (84.62%)
 ==
+The possible source of origin could be deduced with the sequence having the
+highest level of percentage identity. Thus, we the possible source of origin of
+SARS-CoV2 and MERSCoV is RATG13.
 
 =
 #grid(
